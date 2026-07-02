@@ -1,0 +1,2030 @@
+diff --git a/_bibliography/papers.bib b/_bibliography/papers.bib
+index d8c6b05..c9bf998 100644
+--- a/_bibliography/papers.bib
++++ b/_bibliography/papers.bib
+@@ -1,115 +1,426 @@
+ ---
+ ---
+ 
+-@string{aps = {American Physical Society,}}
+-
+-@book{einstein1920relativity,
+-  title={Relativity: the Special and General Theory},
+-  author={Einstein, Albert},
+-  year={1920},
+-  publisher={Methuen & Co Ltd},
+-  html={relativity.html}
+-}
+-
+-@book{einstein1956investigations,
+-  bibtex_show={true},
+-  title={Investigations on the Theory of the Brownian Movement},
+-  author={Einstein, Albert},
+-  year={1956},
+-  publisher={Courier Corporation},
+-  preview={brownian-motion.gif}
+-}
+-
+-@article{einstein1950meaning,
+-  abbr={AJP},
+-  bibtex_show={true},
+-  title={The meaning of relativity},
+-  author={Einstein, Albert and Taub, AH},
+-  journal={American Journal of Physics},
+-  volume={18},
+-  number={6},
+-  pages={403--404},
+-  year={1950},
+-  publisher={American Association of Physics Teachers}
+-}
+-
+-@article{PhysRev.47.777,
+-  abbr={PhysRev},
+-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+-  journal={Phys. Rev.},
+-  location={New Jersey},
+-  volume={47},
+-  issue={10},
+-  pages={777--780},
+-  numpages={0},
+-  year={1935},
+-  month={May},
+-  publisher=aps,
+-  doi={10.1103/PhysRev.47.777},
+-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+-  pdf={example_pdf.pdf},
+-  altmetric={248277},
+-  dimensions={true},
+-  google_scholar_id={qyhmnyLat1gC},
+-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+-  annotation={* Example use of superscripts<br>† Albert Einstein},
+-  selected={true},
+-  inspirehep_id = {3255}
+-}
+-
+-@article{einstein1905molekularkinetischen,
+-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+-  author={Einstein, A.},
+-  journal={Annalen der physik},
+-  volume={322},
+-  number={8},
+-  pages={549--560},
+-  year={1905},
+-  publisher={Wiley Online Library}
+-}
+-
+-@article{einstein1905movement,
+-  abbr={Ann. Phys.},
+-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+-  author={Einstein, A.},
+-  journal={Ann. Phys.},
+-  volume={17},
+-  pages={549--560},
+-  year={1905}
+-}
+-
+-@article{einstein1905electrodynamics,
+-  title={On the electrodynamics of moving bodies},
+-  author={Einstein, A.},
+-  year={1905}
+-}
+-
+-@Article{einstein1905photoelectriceffect,
+-  bibtex_show={true},
+-  abbr={Ann. Phys.},
+-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
+-  author={Albert Einstein},
+-  abstract={This is the abstract text.},
+-  journal={Ann. Phys.},
+-  volume={322},
+-  number={6},
+-  pages={132--148},
+-  year={1905},
+-  doi={10.1002/andp.19053220607},
+-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+-  award_name={Nobel Prize}
+-}
+-
+-@book{przibram1967letters,
+-  bibtex_show={true},
+-  title={Letters on wave mechanics},
+-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+-  year={1967},
+-  publisher={Vision},
+-  preview={wave-mechanics.gif},
+-  abbr={Vision}
++@comment{{ Preview images use a generic placeholder (assets/img/N.jpg) where no
++official paper teaser/GIF was available to pull in automatically. Drop a real
++teaser image into assets/img/publication_preview/ and update the `preview`
++field to swap it in. }}
++
++@inproceedings{azad2026streamready,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={StreamReady: Learning What to Answer and When in Long Streaming Videos},
++  author={Azad, Shehreen and Vineet, Vibhav and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2026},
++  preview={1.jpg},
++  selected={true}
++}
++
++@inproceedings{wang2026sky2ground,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={Sky2Ground: A Benchmark for Site Modeling under Varying Altitude},
++  author={Wang, Zengyan and Mitra, Sirshapan and Modi, Rajat and Lim, Hui Xian Grace and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2026},
++  preview={2.jpg}
++}
++
++@inproceedings{mitra2026prodig,
++  abbr={CVPR Findings},
++  bibtex_show={true},
++  title={ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction},
++  author={Mitra, Sirshapan and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
++  year={2026},
++  preview={3.jpg}
++}
++
++@inproceedings{adak2025molvision,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={MolVision: Molecular Property Prediction with Vision Language Models},
++  author={Adak, Deepan and Rawat, Yogesh and Vyas, Shruti},
++  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
++  year={2025},
++  html={https://neurips.cc/virtual/2025/poster/121822},
++  website={https://chemvision.github.io/chemvision/},
++  preview={4.jpg}
++}
++
++@inproceedings{pathak2025colors,
++  abbr={ICCV},
++  bibtex_show={true},
++  title={Colors See Colors Ignore: Clothes Changing ReID with Color Disentanglement},
++  author={Pathak, Priyank and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  pages={16797--16807},
++  year={2025},
++  html={https://arxiv.org/abs/2507.07230},
++  website={https://ucf-crcv.github.io/ReID/CSCI},
++  code={https://github.com/ppriyank/ICCV-CSCI-Person-ReID},
++  preview={5.jpg},
++  selected={true}
++}
++
++@inproceedings{azad2025disenq,
++  abbr={ICCV},
++  bibtex_show={true},
++  title={DisenQ: Disentangling Q-Former for Activity-Biometrics},
++  author={Azad, Shehreen and Rawat, Yogesh},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  year={2025},
++  html={https://arxiv.org/abs/2507.07262},
++  preview={6.jpg}
++}
++
++@inproceedings{abdullah2025punching,
++  abbr={ICCV},
++  bibtex_show={true},
++  title={Punching Bag vs. Punching Person: Motion Transferability in Videos},
++  author={Abdullah, Raiyaan and Claypoole, Jared and Cogswell, Michael and Divakaran, Ajay and Rawat, Yogesh},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  year={2025},
++  html={https://iccv.thecvf.com/virtual/2025/poster/935},
++  preview={7.jpg}
++}
++
++@inproceedings{garg2025stpro,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding},
++  author={Garg, Aaryan and Kumar, Akash and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2025},
++  html={https://aaryangrg.github.io/research/stpro},
++  website={https://aaryangrg.github.io/research/stpro},
++  preview={8.jpg}
++}
++
++@inproceedings{azad2025hierarq,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={HierarQ: Task-Aware Hierarchical Q-Former for Enhanced Video Understanding},
++  author={Azad, Shehreen and Vineet, Vibhav and Rawat, Yogesh Singh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  pages={8545--8556},
++  year={2025},
++  pdf={https://openaccess.thecvf.com/content/CVPR2025/papers/Azad_HierarQ_Task-Aware_Hierarchical_Q-Former_for_Enhanced_Video_Understanding_CVPR_2025_paper.pdf},
++  html={https://openaccess.thecvf.com/content/CVPR2025/html/Azad_HierarQ_Task-Aware_Hierarchical_Q-Former_for_Enhanced_Video_Understanding_CVPR_2025_paper.html},
++  website={https://sacrcv.github.io/HierarQ-website/},
++  preview={9.jpg},
++  selected={true}
++}
++
++@inproceedings{liang2025differ,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID},
++  author={Liang, Xin and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2025},
++  html={https://openreview.net/pdf?id=tI3ZlbEhOM},
++  preview={10.jpg}
++}
++
++@inproceedings{pathak2025lr0fm,
++  abbr={ICLR},
++  bibtex_show={true},
++  title={LR0.FM: Low-Resolution Zero-Shot Classification Benchmark for Foundation Models},
++  author={Pathak, Priyank and Marjit, Shyam and Vyas, Shruti and Rawat, Yogesh S.},
++  booktitle={International Conference on Learning Representations (ICLR)},
++  year={2025},
++  html={https://openreview.net/forum?id=AsFxRSLtqR},
++  website={https://ucf-crcv.github.io/lr0.fm},
++  code={https://github.com/shyammarjit/LR0.FM},
++  preview={11.jpg},
++  selected={true}
++}
++
++@inproceedings{kumar2025cospal,
++  abbr={ICLR},
++  bibtex_show={true},
++  title={Contextual Self-paced Learning for Weakly Supervised Spatio-Temporal Video Grounding},
++  author={Kumar, Akash and Kira, Zsolt and Rawat, Yogesh Singh},
++  booktitle={International Conference on Learning Representations (ICLR)},
++  year={2025},
++  html={https://iclr.cc/virtual/2025/poster/27737},
++  slides={https://iclr.cc/media/iclr-2025/Slides/27737.pdf},
++  preview={12.jpg}
++}
++
++@article{ahmad2025t2l,
++  abbr={TMLR},
++  bibtex_show={true},
++  title={T2L: Efficient Zero-Shot Action Recognition with Temporal Token Learning},
++  author={Ahmad, Shahzad and Chanda, Sukalpa and Rawat, Yogesh S.},
++  journal={Transactions on Machine Learning Research (TMLR)},
++  year={2025},
++  preview={1.jpg}
++}
++
++@inproceedings{kumar2025stable,
++  abbr={AAAI},
++  bibtex_show={true},
++  title={Stable Mean Teacher for Semi-supervised Video Action Detection},
++  author={Kumar, Akash and Mitra, Sirshapan and Rawat, Yogesh Singh},
++  booktitle={AAAI Conference on Artificial Intelligence},
++  year={2025},
++  html={https://arxiv.org/abs/2412.07072},
++  preview={2.jpg}
++}
++
++@inproceedings{modi2024apm,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={Asynchronous Perception Machine for Efficient Test-Time-Training},
++  author={Modi, Rajat and Rawat, Yogesh},
++  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
++  year={2024},
++  html={https://arxiv.org/abs/2410.20535},
++  website={https://rajatmodi62.github.io/apm_project_page},
++  preview={3.jpg}
++}
++
++@inproceedings{grover2024navigating,
++  abbr={EMNLP Findings},
++  bibtex_show={true},
++  title={Navigating Hallucinations for Reasoning of Unintentional Activities},
++  author={Grover, Shresth and Vineet, Vibhav and Rawat, Yogesh S.},
++  booktitle={Findings of the Association for Computational Linguistics: EMNLP},
++  year={2024},
++  preview={4.jpg}
++}
++
++@inproceedings{azad2024activity,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={Activity-Biometrics: Person Identification from Daily Activities},
++  author={Azad, Shehreen and Rawat, Yogesh Singh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  pages={287--296},
++  year={2024},
++  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Azad_Activity-Biometrics_Person_Identification_from_Daily_Activities_CVPR_2024_paper.pdf},
++  html={https://openaccess.thecvf.com/content/CVPR2024/html/Azad_Activity-Biometrics_Person_Identification_from_Daily_Activities_CVPR_2024_paper.html},
++  preview={5.jpg}
++}
++
++@comment{{ Historical publications merged in from Google Scholar (D_JvEcwAAAAJ). }}
++
++@article{madan2024foundation,
++  abbr={arXiv},
++  bibtex_show={true},
++  title={Foundation models for video understanding: A survey},
++  author={Madan, Neelu and M{\o}gelmose, Andreas and Modi, Rajat and Rawat, Yogesh S and Moeslund, Thomas B},
++  journal={arXiv preprint arXiv:2405.03770},
++  year={2024},
++  html={https://arxiv.org/abs/2405.03770},
++  preview={6.jpg}
++}
++
++@article{schiappa2023self,
++  abbr={CSUR},
++  bibtex_show={true},
++  title={Self-supervised learning for videos: A survey},
++  author={Schiappa, Madeline C and Rawat, Yogesh S and Shah, Mubarak},
++  journal={ACM Computing Surveys},
++  volume={55},
++  number={13s},
++  pages={1--37},
++  year={2023},
++  publisher={ACM New York, NY},
++  preview={7.jpg}
++}
++
++@inproceedings{schiappa2023large,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={A large-scale robustness analysis of video action recognition models},
++  author={Schiappa, Madeline Chantry and Biyani, Naman and Kamtam, Prudvi and Vyas, Shruti and Palangi, Hamid and Vineet, Vibhav and Rawat, Yogesh S},
++  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
++  pages={14698--14708},
++  year={2023},
++  preview={8.jpg}
++}
++
++@inproceedings{dave2022gabriellav2,
++  abbr={WACV},
++  bibtex_show={true},
++  title={GabriellaV2: Towards better generalization in surveillance videos for action detection},
++  author={Dave, Ishan and Scheffer, Zacchaeus and Kumar, Akash and Shiraz, Sarah and Rawat, Yogesh Singh and Shah, Mubarak},
++  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
++  pages={122--132},
++  year={2022},
++  preview={9.jpg}
++}
++
++@inproceedings{kumar2022end,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={End-to-End Semi-Supervised Learning for Video Action Detection},
++  author={Kumar, Akash and Rawat, Yogesh Singh},
++  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
++  year={2022},
++  preview={10.jpg}
++}
++
++@inproceedings{xu2022don,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={Don't Pour Cereal into Coffee: Differentiable Temporal Logic for Temporal Action Segmentation},
++  author={Xu, Ziwei and Rawat, Yogesh S and Wong, Yongkang and Kankanhalli, Mohan and Shah, Mubarak},
++  booktitle={Advances in Neural Information Processing Systems},
++  year={2022},
++  preview={11.jpg}
++}
++
++@article{schiappa2022robustness,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={Robustness analysis of video-language models against visual and language perturbations},
++  author={Schiappa, Madeline and Vyas, Shruti and Palangi, Hamid and Rawat, Yogesh and Vineet, Vibhav},
++  journal={Advances in Neural Information Processing Systems},
++  volume={35},
++  pages={34405--34420},
++  year={2022},
++  preview={12.jpg}
++}
++
++@inproceedings{rizve2021defense,
++  abbr={ICLR},
++  bibtex_show={true},
++  title={In defense of pseudo-labeling: An uncertainty-aware pseudo-label selection framework for semi-supervised learning},
++  author={Rizve, Mamshad Nayeem and Duarte, Kevin and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={The International Conference on Learning Representations (ICLR)},
++  year={2021},
++  preview={1.jpg}
++}
++
++@inproceedings{tirupattur2021modeling,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={Modeling Multi-Label Action Dependencies for Temporal Action Localization},
++  author={Tirupattur, Praveen and Duarte, Kevin and Rawat, Yogesh and Shah, Mubarak},
++  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
++  year={2021},
++  preview={2.jpg}
++}
++
++@inproceedings{vyas2020multi,
++  abbr={ECCV},
++  bibtex_show={true},
++  title={Multi-view Action Recognition using Cross-view Video Prediction},
++  author={Vyas, Shruti and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
++  year={2020},
++  preview={3.jpg}
++}
++
++@inproceedings{demir2020tinyvirat,
++  abbr={ICPR},
++  bibtex_show={true},
++  title={TinyVIRAT: Low-resolution Video Action Recognition},
++  author={Demir, Ugur and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={25th International Conference on Pattern Recognition},
++  year={2020},
++  preview={4.jpg}
++}
++
++@article{quintanilla2020adversarial,
++  abbr={TMM},
++  bibtex_show={true},
++  title={Adversarial Learning for Personalized Tag Recommendation},
++  author={Quintanilla, Erik and Rawat, Yogesh and Sakryukin, Andrey and Shah, Mubarak and Kankanhalli, Mohan},
++  journal={IEEE Transactions on Multimedia},
++  year={2020},
++  preview={5.jpg}
++}
++
++@inproceedings{mcintosh2020visual,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={Visual-textual Capsule Routing for Text-based Video Segmentation},
++  author={McIntosh, Bruce and Duarte, Kevin and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
++  year={2020},
++  preview={6.jpg}
++}
++
++@inproceedings{duarte2019capsulevos,
++  abbr={ICCV},
++  bibtex_show={true},
++  title={CapsuleVOS: Semi-Supervised Video Object Segmentation Using Capsule Routing},
++  author={Duarte, Kevin and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
++  year={2019},
++  preview={7.jpg}
++}
++
++@inproceedings{duarte2018videocapsulenet,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={VideoCapsuleNet: A Simplified Network for Action Detection},
++  author={Duarte, Kevin and Rawat, Yogesh S and Shah, Mubarak},
++  booktitle={Advances in Neural Information Processing Systems},
++  year={2018},
++  preview={8.jpg}
++}
++
++@inproceedings{tirupattur2018thoughtviz,
++  abbr={ACM MM},
++  bibtex_show={true},
++  title={ThoughtViz: Visualizing Human Thoughts Using Generative Adversarial Network},
++  author={Tirupattur, Praveen and Rawat, Yogesh Singh and Spampinato, Concetto and Shah, Mubarak},
++  booktitle={Proceedings of the 2018 ACM on Multimedia Conference},
++  pages={950--958},
++  year={2018},
++  organization={ACM},
++  preview={9.jpg}
++}
++
++@inproceedings{rawat2016contagnet,
++  abbr={ACM MM},
++  bibtex_show={true},
++  title={ConTagNet: Exploiting user context for image tag recommendation},
++  author={Rawat, Yogesh Singh and Kankanhalli, Mohan S},
++  booktitle={Proceedings of the 24th ACM international conference on Multimedia},
++  pages={1102--1106},
++  year={2016},
++  preview={10.jpg}
++}
++
++@article{rawat2016clicksmart,
++  abbr={TCSVT},
++  bibtex_show={true},
++  title={ClickSmart: A Context-Aware Viewpoint Recommendation System for Mobile Photography},
++  author={Rawat, Yogesh and Kankanhalli, Mohan},
++  year={2016},
++  publisher={IEEE Transactions on Circuits and Systems for Video Technology},
++  preview={11.jpg}
++}
++
++@article{rawat2015context,
++  abbr={TOMM},
++  bibtex_show={true},
++  title={Context-aware photography learning for smart mobile devices},
++  author={Rawat, Yogesh Singh and Kankanhalli, Mohan S},
++  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
++  volume={12},
++  number={1s},
++  pages={1--24},
++  year={2015},
++  publisher={ACM New York, NY, USA},
++  preview={12.jpg}
++}
++
++@article{bhattacharya2008analytic,
++  abbr={ICFHR},
++  bibtex_show={true},
++  title={An analytic scheme for online handwritten Bangla cursive word recognition},
++  author={Bhattacharya, U and Nigam, A and Rawat, YS and Parui, SK},
++  journal={Proc. of the 11th ICFHR},
++  pages={320--325},
++  year={2008},
++  preview={1.jpg}
+ }
+diff --git a/_config.yml b/_config.yml
+index bd6b027..2049a7e 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -151,6 +151,8 @@ collections:
+     output: true
+   projects:
+     output: true
++  service:
++    output: true
+ 
+ # -----------------------------------------------------------------------------
+ # Jekyll settings
+diff --git a/_data/cv.yml b/_data/cv.yml
+index 5885b30..d2c69c5 100644
+--- a/_data/cv.yml
++++ b/_data/cv.yml
+@@ -2,96 +2,66 @@
+   type: map
+   contents:
+     - name: Full Name
+-      value: Albert Einstein
+-    - name: Date of Birth
+-      value: 14th March 1879
+-    - name: Languages
+-      value: English, German
++      value: Yogesh Singh Rawat
++    - name: Position
++      value: Associate Professor, Center for Research in Computer Vision (CRCV), University of Central Florida
++    - name: Email
++      value: yogesh@crcv.ucf.edu
+ 
+ - title: Education
+   type: time_table
+   contents:
+-    - title: PhD
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1905
+-      description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Federal teaching diploma
+-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+-      year: 1900
+-      description:
+-        - Description 1.
+-        - Description 2.
++    - title: Ph.D. in Computer Science
++      institution: National University of Singapore, Singapore
++      year: 2017
+ 
+ - title: Experience
+   type: time_table
+   contents:
+-    - title: Professor of Theoretical Physics
+-      institution: Institute for Advanced Study, Princeton University
+-      year: 1933 - 1955
+-      description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Visiting Professor
+-      institution: California Institute of Technology, Pasadena, California, US
+-      year: 1933
+-      description:
+-        - Description 1.
+-        - Description 2.
++    - title: Associate Professor
++      institution: Department of Computer Science / Center for Research in Computer Vision, University of Central Florida
++      year: 2024 - Present
++    - title: Assistant Professor
++      institution: Department of Computer Science / Center for Research in Computer Vision, University of Central Florida
++      year: 2019 - 2024
++    - title: Postdoctoral Fellow
++      institution: Center for Research in Computer Vision, University of Central Florida
++      year: 2017 - 2019
++    - title: Senior Member of Technical Staff
++      institution: Mentor Graphics, India
++      year: 2009 - 2012
+ 
+-    - title: Director
+-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+-      year: 1917-1933
+-
+-    - title: Professor of Theoretical Physics
+-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+-      year: 1911 - 1917
+-      description:
+-
+-    - title: Associate Professor of Theoretical Physics
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1909 - 1911
+-
+-- title: Open Source Projects
+-  type: time_table
+-  contents:
+-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+-      year: 2015-now
+-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+-
+-- title: Honors and Awards
+-  type: time_table
++- title: Research Interests
++  type: nested_list
+   contents:
+-    - year: 1921
++    - title: Computer Vision & Video Understanding
+       items:
+-        - Nobel Prize in Physics
+-        - Matteucci Medal
+-    - year: 2029
++        - Action and activity recognition and detection
++        - Spatio-temporal video grounding
++    - title: Multimodal Learning
+       items:
+-        - Max Planck Medal
++        - Vision-language foundation models
++        - Video question answering and reasoning
++    - title: Robust and Trustworthy AI
++      items:
++        - Resilience to adversarial and low-resolution conditions
++        - Semi-supervised and weakly-supervised learning
+ 
+-- title: Academic Interests
++- title: Professional Service
+   type: nested_list
+   contents:
+-    - title: Topic 1.
++    - title: Program Committees
+       items:
+-        - Description 1.
+-        - Description 2.
+-    - title: Topic 2.
++        - ACM Multimedia (ACM MM)
++        - IEEE Winter Conference on Applications of Computer Vision (WACV)
++    - title: Journal Reviewing
+       items:
+-        - Description 1.
+-        - Description 2.
++        - IEEE Transactions on Multimedia
++        - ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+ 
+-- title: Other Interests
+-  type: list
++- title: Open Source Projects
++  type: time_table
+   contents:
+-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
++    - title: <a href="https://github.com/v4xlab/v4xlab.github.io">Lab website (al-folio based)</a>
++      year: 2026
++      description: Group website for the CRCV Video Understanding & Multimodal AI Lab.
+diff --git a/_data/socials.yml b/_data/socials.yml
+index 20cf38a..c1a8829 100644
+--- a/_data/socials.yml
++++ b/_data/socials.yml
+@@ -7,14 +7,14 @@
+ # bluesky_url: # your bluesky URL
+ # dblp_url: # your DBLP profile url
+ # discord_id: # your discord id (18-digit unique numerical identifier)
+-email: you@example.com # your email address
++email: yogesh@crcv.ucf.edu # your email address
+ # facebook_id: # your facebook id
+ # flickr_id: # your flickr id
+ # github_username: # your GitHub user name
+ # gitlab_username: # your GitLab user name
+ # hal_id: # your HAL id (https://hal.science/)
+ # ieee_id: # your ieeexplore.ieee.org/author/id
+-inspirehep_id: 1010907 # Inspire HEP author ID
++# inspirehep_id: # Inspire HEP author ID
+ # instagram_id: # your instagram id
+ # kaggle_id: # your kaggle id
+ # keybase_username: # your keybase user name
+@@ -31,7 +31,7 @@ inspirehep_id: 1010907 # Inspire HEP author ID
+ # quora_username: # your Quora username
+ # research_gate_profile: # your profile on ResearchGate
+ rss_icon: true # comment this line to hide the RSS icon
+-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
++scholar_userid: D_JvEcwAAAAJ # your Google Scholar ID
+ # scopus_id: # your profile on Scopus
+ # semanticscholar_id: # your Semantic Scholar ID
+ # spotify_id: # your spotify id
+@@ -47,7 +47,11 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+ # x_username: # your X handle
+ # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+ # zotero_username: # your zotero username
+-custom_social: # can be any name here other than the ones already defined above
+-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+-  title: Custom Social
+-  url: https://www.alberteinstein.com/
++crcv_page: # can be any name here other than the ones already defined above
++  icon: fa-solid fa-camera-retro
++  title: CRCV Faculty Page
++  url: https://www.crcv.ucf.edu/person/rawat/
++iai_page:
++  icon: fa-solid fa-brain
++  title: Institute for AI (IAI)
++  url: https://ai.ucf.edu/
+diff --git a/_data/venues.yml b/_data/venues.yml
+index 4196320..3cef5dd 100644
+--- a/_data/venues.yml
++++ b/_data/venues.yml
+@@ -1,3 +1,79 @@
++"CVPR":
++  url: https://cvpr.thecvf.com/
++  color: "#4285F4"
++
++"ICCV":
++  url: https://iccv.thecvf.com/
++  color: "#EA4335"
++
++"ECCV":
++  url: https://eccv.ecva.net/
++  color: "#FBBC05"
++
++"ICLR":
++  url: https://iclr.cc/
++  color: "#34A853"
++
++"NeurIPS":
++  url: https://neurips.cc/
++  color: "#8E44AD"
++
++"AAAI":
++  url: https://aaai.org/
++  color: "#16A085"
++
++"WACV":
++  url: https://wacv.thecvf.com/
++  color: "#E67E22"
++
++"TMLR":
++  url: https://jmlr.org/tmlr/
++  color: "#2C3E50"
++
++"EMNLP":
++  url: https://2024.emnlp.org/
++  color: "#C0392B"
++
++"ACM MM":
++  url: https://www.acmmm.org/
++  color: "#2980B9"
++
++"NeurIPS Findings":
++  url: https://neurips.cc/
++  color: "#8E44AD"
++
++"CVPR Findings":
++  url: https://cvpr.thecvf.com/
++  color: "#4285F4"
++
++"TOMM":
++  url: https://dl.acm.org/journal/tomm
++  color: "#7F8C8D"
++
++"TCSVT":
++  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-circuits-and-systems-video-technology
++  color: "#7F8C8D"
++
++"TMM":
++  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia
++  color: "#7F8C8D"
++
++"ICFHR":
++  url: https://icfhr2024.org/
++  color: "#95A5A6"
++
++"ICPR":
++  url: https://www.icpr2024.fr/
++  color: "#95A5A6"
++
++"CSUR":
++  url: https://dl.acm.org/journal/csur
++  color: "#7F8C8D"
++
++"arXiv":
++  url: https://arxiv.org/
++  color: "#B31B1B"
++
+ "AJP":
+   url: https://aapt.scitation.org/journal/ajp
+   color: "#00369f"
+diff --git a/_includes/service.liquid b/_includes/service.liquid
+new file mode 100644
+index 0000000..baf0a1e
+--- /dev/null
++++ b/_includes/service.liquid
+@@ -0,0 +1,12 @@
++<div class="service">
++  {% if site.service != blank %}
++    {% assign service_items = site.service | sort: 'order' %}
++    <ul>
++      {% for item in service_items %}
++        <li>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</li>
++      {% endfor %}
++    </ul>
++  {% else %}
++    <p>No service listed so far...</p>
++  {% endif %}
++</div>
+diff --git a/_includes/social.liquid b/_includes/social.liquid
+index 91b6ecc..ab96915 100644
+--- a/_includes/social.liquid
++++ b/_includes/social.liquid
+@@ -96,16 +96,20 @@
+       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+     {% else %}
+       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
+-        {% assign file_ext = social[1].logo | split: '.' | last %}
+-        {% if file_ext == 'svg' %}
+-          <svg>
+-            <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
+-          </svg>
++        {% if social[1].icon %}
++          <i class="{{ social[1].icon }}"></i>
+         {% else %}
+-          <img
+-            src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
+-            alt="{{ social[1].title }}"
+-          >
++          {% assign file_ext = social[1].logo | split: '.' | last %}
++          {% if file_ext == 'svg' %}
++            <svg>
++              <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
++            </svg>
++          {% else %}
++            <img
++              src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
++              alt="{{ social[1].title }}"
++            >
++          {% endif %}
+         {% endif %}
+       </a>
+   {% endcase %}
+diff --git a/_layouts/about.liquid b/_layouts/about.liquid
+index f0544cb..eb63588 100644
+--- a/_layouts/about.liquid
++++ b/_layouts/about.liquid
+@@ -43,25 +43,25 @@ layout: default
+     <!-- News -->
+     {% if page.announcements and page.announcements.enabled %}
+       <h2>
+-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
++        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+       </h2>
+       {% include news.liquid limit=true %}
+     {% endif %}
+ 
+-    <!-- Latest posts -->
+-    {% if page.latest_posts and page.latest_posts.enabled %}
++    <!-- Selected papers -->
++    {% if page.selected_papers %}
+       <h2>
+-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
++        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+       </h2>
+-      {% include latest_posts.liquid %}
++      {% include selected_papers.liquid %}
+     {% endif %}
+ 
+-    <!-- Selected papers -->
+-    {% if page.selected_papers %}
++    <!-- Service -->
++    {% if page.service and page.service.enabled %}
+       <h2>
+-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
++        <a href="{{ '/service/' | relative_url }}" style="color: inherit">Service</a>
+       </h2>
+-      {% include selected_papers.liquid %}
++      {% include service.liquid %}
+     {% endif %}
+ 
+     <!-- Social -->
+diff --git a/_news/announcement_1.md b/_news/announcement_1.md
+index e5349ce..0224089 100644
+--- a/_news/announcement_1.md
++++ b/_news/announcement_1.md
+@@ -1,8 +1,8 @@
+ ---
+ layout: post
+-date: 2015-10-22 15:59:00-0400
++date: 2026-07-01 09:00:00-0400
+ inline: true
+ related_posts: false
+ ---
+ 
+-A simple inline announcement.
++4 papers accepted in <b>ECCV'26</b>, congrats to Raiyaan, Rajat, Priyank and Shresth!
+diff --git a/_news/announcement_10.md b/_news/announcement_10.md
+new file mode 100644
+index 0000000..cc8a0fb
+--- /dev/null
++++ b/_news/announcement_10.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-08-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++1 paper accepted in <b>CVPR 2024</b>, congrats to Shehreen!
+diff --git a/_news/announcement_11.md b/_news/announcement_11.md
+new file mode 100644
+index 0000000..50b09b1
+--- /dev/null
++++ b/_news/announcement_11.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-07-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++<b>MSR AFMR Grant</b> on Foundation Models Academic Research Initiative
+diff --git a/_news/announcement_12.md b/_news/announcement_12.md
+new file mode 100644
+index 0000000..07305f0
+--- /dev/null
++++ b/_news/announcement_12.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-02-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++1 paper accepted in <b>AAAI'24</b>, congrats Ayush, Aayush, Akash!
+diff --git a/_news/announcement_13.md b/_news/announcement_13.md
+new file mode 100644
+index 0000000..d314539
+--- /dev/null
++++ b/_news/announcement_13.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2023-12-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++2 papers accepted in <b>NeurIPS'23</b>, congrats to Rajat and Shresth!
+diff --git a/_news/announcement_14.md b/_news/announcement_14.md
+new file mode 100644
+index 0000000..2198a10
+--- /dev/null
++++ b/_news/announcement_14.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2023-10-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++1 paper accepted in <b>ICCV 2023</b>, congrats to Nishant!
+diff --git a/_news/announcement_15.md b/_news/announcement_15.md
+new file mode 100644
+index 0000000..23d3bf3
+--- /dev/null
++++ b/_news/announcement_15.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2023-06-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++2 papers accepted in <b>CVPR 2023</b>, congrats to Aayush and Maddy!
+diff --git a/_news/announcement_16.md b/_news/announcement_16.md
+new file mode 100644
+index 0000000..9d2bf29
+--- /dev/null
++++ b/_news/announcement_16.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2023-01-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Invited talk - FGAD @ <b>WACV 2023</b>!
+diff --git a/_news/announcement_17.md b/_news/announcement_17.md
+new file mode 100644
+index 0000000..8959698
+--- /dev/null
++++ b/_news/announcement_17.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-10-24 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Invited talk - ATLAS @ <b>ECCV 2022</b>! <a href="https://nus-cvml.github.io/atlas-eccv22/">[Link]</a>
+diff --git a/_news/announcement_18.md b/_news/announcement_18.md
+new file mode 100644
+index 0000000..5ebd4bc
+--- /dev/null
++++ b/_news/announcement_18.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-11-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Congratulations to Aayush and Maddy for <b>NeurIPS 2022 Scholar Award</b>!
+diff --git a/_news/announcement_19.md b/_news/announcement_19.md
+new file mode 100644
+index 0000000..844dacc
+--- /dev/null
++++ b/_news/announcement_19.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-10-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++3 papers accepted in <b>NeurIPS'22</b>, Congrats to Aayush, Maddy, and Ziwei!
+diff --git a/_news/announcement_2.md b/_news/announcement_2.md
+index 9269395..bff075c 100644
+--- a/_news/announcement_2.md
++++ b/_news/announcement_2.md
+@@ -1,33 +1,8 @@
+ ---
+ layout: post
+-title: A long announcement with details
+-date: 2015-11-07 16:11:00-0400
+-inline: false
++date: 2026-02-27 09:00:00-0400
++inline: true
+ related_posts: false
+ ---
+ 
+-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+-
+----
+-
+-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+-
+-#### Hipster list
+-
+-<ul>
+-    <li>brunch</li>
+-    <li>fixie</li>
+-    <li>raybans</li>
+-    <li>messenger bag</li>
+-</ul>
+-
+-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+-
+----
+-
+-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+-
+-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+-> —Anais Nin
+-
+-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
++3 papers accepted in <b>CVPR'26</b>, congrats to Shehreen, Zen, Sirs, Rajat, Grace!
+diff --git a/_news/announcement_20.md b/_news/announcement_20.md
+new file mode 100644
+index 0000000..9aee164
+--- /dev/null
++++ b/_news/announcement_20.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-06-15 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Congratulations to Akash for his <b>CVPR 2022</b> paper
+diff --git a/_news/announcement_21.md b/_news/announcement_21.md
+new file mode 100644
+index 0000000..f057e69
+--- /dev/null
++++ b/_news/announcement_21.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-06-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Organizing <b>ROSE workshop and challenge</b> at CVPR-2022!
+diff --git a/_news/announcement_22.md b/_news/announcement_22.md
+new file mode 100644
+index 0000000..d9e2b3a
+--- /dev/null
++++ b/_news/announcement_22.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-05-20 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Organizing <b>TinyAction Challenge</b> in ActivityNet workshop at CVPR-2022!
+diff --git a/_news/announcement_23.md b/_news/announcement_23.md
+new file mode 100644
+index 0000000..7cf99e5
+--- /dev/null
++++ b/_news/announcement_23.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-01-15 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Invited talk @SRI International Jan 2022
+diff --git a/_news/announcement_24.md b/_news/announcement_24.md
+new file mode 100644
+index 0000000..d34b7b0
+--- /dev/null
++++ b/_news/announcement_24.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2022-01-05 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Congratulations to Xianhang for his <b>WACV 2022</b> paper
+diff --git a/_news/announcement_25.md b/_news/announcement_25.md
+new file mode 100644
+index 0000000..c422883
+--- /dev/null
++++ b/_news/announcement_25.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-12-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Congratulations to Alec for his <b>NeurIPS 2021</b> paper
+diff --git a/_news/announcement_26.md b/_news/announcement_26.md
+new file mode 100644
+index 0000000..4f0f2e4
+--- /dev/null
++++ b/_news/announcement_26.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-11-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Congratulations to Naman for his <b>BMVC 2021</b> paper
+diff --git a/_news/announcement_27.md b/_news/announcement_27.md
+new file mode 100644
+index 0000000..ebea3ca
+--- /dev/null
++++ b/_news/announcement_27.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-07-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Invited talk @MSR [Deep learning for video understanding], July 2021
+diff --git a/_news/announcement_28.md b/_news/announcement_28.md
+new file mode 100644
+index 0000000..5255292
+--- /dev/null
++++ b/_news/announcement_28.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-06-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>CVPR 2021</b>
+diff --git a/_news/announcement_29.md b/_news/announcement_29.md
+new file mode 100644
+index 0000000..f118922
+--- /dev/null
++++ b/_news/announcement_29.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-05-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>ICLR 2021</b>
+diff --git a/_news/announcement_3.md b/_news/announcement_3.md
+index 4d54088..ab77c24 100644
+--- a/_news/announcement_3.md
++++ b/_news/announcement_3.md
+@@ -1,8 +1,8 @@
+ ---
+ layout: post
+-date: 2016-01-15 07:59:00-0400
++date: 2025-07-31 09:00:00-0400
+ inline: true
+ related_posts: false
+ ---
+ 
+-A simple inline announcement with Markdown emoji! :sparkles: :smile:
++3 papers accepted in <b>ICCV'25</b>, congrats to Raiyaan, Shehreen, and Priyank! <a href="https://www.crcv.ucf.edu/2025/07/31/nineteen-papers-accepted-in-iccv-2025/">[Link]</a>
+diff --git a/_news/announcement_30.md b/_news/announcement_30.md
+new file mode 100644
+index 0000000..4d23e11
+--- /dev/null
++++ b/_news/announcement_30.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-03-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Student Abstract Paper accepted in <b>AAAI 2021</b>
+diff --git a/_news/announcement_31.md b/_news/announcement_31.md
+new file mode 100644
+index 0000000..3f28142
+--- /dev/null
++++ b/_news/announcement_31.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-02-15 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>WACV 2021</b>
+diff --git a/_news/announcement_32.md b/_news/announcement_32.md
+new file mode 100644
+index 0000000..795f334
+--- /dev/null
++++ b/_news/announcement_32.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-02-05 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Organizer, Workshop on Trustworthy AI, ACM MM 2021
+diff --git a/_news/announcement_33.md b/_news/announcement_33.md
+new file mode 100644
+index 0000000..a4bdb2a
+--- /dev/null
++++ b/_news/announcement_33.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-02-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Organized TinyAction challenge in <b>CVPR 2021</b>
+diff --git a/_news/announcement_34.md b/_news/announcement_34.md
+new file mode 100644
+index 0000000..e7f630e
+--- /dev/null
++++ b/_news/announcement_34.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2021-01-15 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++2 papers accepted in <b>ECCV 2020</b>: Multi-view action recognition, Cross-view video synthesis
+diff --git a/_news/announcement_35.md b/_news/announcement_35.md
+new file mode 100644
+index 0000000..ad04b08
+--- /dev/null
++++ b/_news/announcement_35.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2020-12-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>CVPR 2020</b>
+diff --git a/_news/announcement_36.md b/_news/announcement_36.md
+new file mode 100644
+index 0000000..a512312
+--- /dev/null
++++ b/_news/announcement_36.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2020-08-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Teaching Computer Vision in Fall 2020
+diff --git a/_news/announcement_37.md b/_news/announcement_37.md
+new file mode 100644
+index 0000000..683cdaa
+--- /dev/null
++++ b/_news/announcement_37.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2020-06-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Research overview talk
+diff --git a/_news/announcement_38.md b/_news/announcement_38.md
+new file mode 100644
+index 0000000..57cb966
+--- /dev/null
++++ b/_news/announcement_38.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2020-04-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>IEEE TMM</b>
+diff --git a/_news/announcement_39.md b/_news/announcement_39.md
+new file mode 100644
+index 0000000..328cbbb
+--- /dev/null
++++ b/_news/announcement_39.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2019-12-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Runners-up, ActEV TRECVID 2019
+diff --git a/_news/announcement_4.md b/_news/announcement_4.md
+new file mode 100644
+index 0000000..41c8d11
+--- /dev/null
++++ b/_news/announcement_4.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2025-03-27 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Received UCF's <b>Reach for the Stars Award 2025</b>! <a href="https://ai.ucf.edu/dr-yogesh-rawat-named-as-a-2025-reach-for-the-stars-award-recipient/">[Link]</a>
+diff --git a/_news/announcement_40.md b/_news/announcement_40.md
+new file mode 100644
+index 0000000..d31cdc0
+--- /dev/null
++++ b/_news/announcement_40.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2019-06-15 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Press cover (Robinly) @CVPR 2019
+diff --git a/_news/announcement_41.md b/_news/announcement_41.md
+new file mode 100644
+index 0000000..8844dfc
+--- /dev/null
++++ b/_news/announcement_41.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2019-05-30 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Organized CVPR 2019 tutorial on Capsule Networks.
+diff --git a/_news/announcement_42.md b/_news/announcement_42.md
+new file mode 100644
+index 0000000..600864b
+--- /dev/null
++++ b/_news/announcement_42.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2019-04-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Paper accepted in <b>ICCV 2019</b>
+diff --git a/_news/announcement_5.md b/_news/announcement_5.md
+new file mode 100644
+index 0000000..a48c72d
+--- /dev/null
++++ b/_news/announcement_5.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2025-03-20 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++3 papers accepted in <b>CVPR'25</b>, congrats to Xin, Shehreen, Aaryan and Akash! <a href="https://www.crcv.ucf.edu/2025/04/10/fourteen-papers-accepted-at-cvpr-2025/">[Link]</a>
+diff --git a/_news/announcement_6.md b/_news/announcement_6.md
+new file mode 100644
+index 0000000..527bbb4
+--- /dev/null
++++ b/_news/announcement_6.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2025-01-28 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++2 papers accepted in <b>ICLR'25</b>, congrats to Akash and Priyank!
+diff --git a/_news/announcement_7.md b/_news/announcement_7.md
+new file mode 100644
+index 0000000..0705ccb
+--- /dev/null
++++ b/_news/announcement_7.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-12-10 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++1 paper accepted in <b>AAAI'25</b>, congrats to Akash and Sirshapan! <a href="https://arxiv.org/abs/2412.07072">[Link]</a>
+diff --git a/_news/announcement_8.md b/_news/announcement_8.md
+new file mode 100644
+index 0000000..ba53262
+--- /dev/null
++++ b/_news/announcement_8.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-10-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++2 papers accepted in <b>NeurIPS'24</b>, congrats to Grace and Rajat! <a href="https://arxiv.org/abs/2410.20535">[Link]</a>
+diff --git a/_news/announcement_9.md b/_news/announcement_9.md
+new file mode 100644
+index 0000000..53a38c9
+--- /dev/null
++++ b/_news/announcement_9.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2024-09-01 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++1 paper accepted in <b>EMNLP (Findings) 2024</b>, congrats to Shresth!
+diff --git a/_pages/about.md b/_pages/about.md
+index 8f13225..9c63b62 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -2,7 +2,7 @@
+ layout: about
+ title: About
+ permalink: /
+-subtitle: Associate Professor, CRCV, <a href='https://www.ucf.edu/'>University of Central Florida</a>.
++subtitle: Associate Professor, <a href='https://ai.ucf.edu/'>IAI</a>, <a href='https://www.crcv.ucf.edu/'>CRCV</a>, <a href='https://www.ucf.edu/'>University of Central Florida</a>.
+ 
+ profile:
+   align: left
+@@ -17,10 +17,8 @@ announcements:
+   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+   limit: 10 # leave blank to include all the news in the `_news` folder
+ 
+-latest_posts:
++service:
+   enabled: true
+-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+-  limit: 10 # leave blank to include all the blog posts
+ ---
+ 
+ Our research group is focused on advancing computer vision and AI, particularly in the areas of video understanding, multimodal learning, and robust AI systems. Our work explores foundational models and machine learning techniques to tackle challenges like action recognition, anomaly detection, and resilience to adversarial conditions. We aim to develop intelligent systems that not only perceive but also reason about complex visual and multimodal data for real-world applications.
+diff --git a/_pages/blog.md b/_pages/blog.md
+index 4af1fbb..b10a34d 100644
+--- a/_pages/blog.md
++++ b/_pages/blog.md
+@@ -1,7 +1,7 @@
+ ---
+ layout: default
+ permalink: /blog/
+-title: blog
++title: Blog
+ nav: false
+ nav_order: 1
+ pagination:
+diff --git a/_pages/books.md b/_pages/books.md
+index 48ca7af..1c89ba3 100644
+--- a/_pages/books.md
++++ b/_pages/books.md
+@@ -1,6 +1,6 @@
+ ---
+ layout: book-shelf
+-title: bookshelf
++title: Bookshelf
+ permalink: /books/
+ nav: false
+ collection: books
+diff --git a/_pages/cv.md b/_pages/cv.md
+index a49086a..f9ddef1 100644
+--- a/_pages/cv.md
++++ b/_pages/cv.md
+@@ -1,7 +1,7 @@
+ ---
+ layout: cv
+ permalink: /cv/
+-title: cv
++title: CV
+ nav: false
+ nav_order: 5
+ cv_pdf: example_pdf.pdf # you can also use external links here
+diff --git a/_pages/dropdown.md b/_pages/dropdown.md
+index d10c1b5..b44e75c 100644
+--- a/_pages/dropdown.md
++++ b/_pages/dropdown.md
+@@ -1,6 +1,6 @@
+ ---
+ layout: page
+-title: submenus
++title: Submenus
+ nav: false
+ nav_order: 8
+ dropdown: true
+diff --git a/_pages/profiles.md b/_pages/profiles.md
+index d7ca045..313b703 100644
+--- a/_pages/profiles.md
++++ b/_pages/profiles.md
+@@ -1,7 +1,7 @@
+ ---
+ layout: profiles
+ permalink: /people/
+-title: people
++title: People
+ description: members of the lab or group
+ nav: true
+ nav_order: 7
+diff --git a/_pages/publications.md b/_pages/publications.md
+index 48027f8..4b28e99 100644
+--- a/_pages/publications.md
++++ b/_pages/publications.md
+@@ -1,7 +1,7 @@
+ ---
+ layout: page
+ permalink: /publications/
+-title: publications
++title: Publications
+ description: publications by categories in reversed chronological order. generated by jekyll-scholar.
+ nav: true
+ nav_order: 2
+diff --git a/_pages/repositories.md b/_pages/repositories.md
+index cba3870..0ba9237 100644
+--- a/_pages/repositories.md
++++ b/_pages/repositories.md
+@@ -1,7 +1,7 @@
+ ---
+ layout: page
+ permalink: /repositories/
+-title: repositories
++title: Repositories
+ description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+ nav: true
+ nav_order: 4
+diff --git a/_pages/service.md b/_pages/service.md
+new file mode 100644
+index 0000000..f53cdb2
+--- /dev/null
++++ b/_pages/service.md
+@@ -0,0 +1,9 @@
++---
++layout: page
++title: Service
++permalink: /service/
++nav: true
++nav_order: 9
++---
++
++{% include service.liquid %}
+diff --git a/_service/service_1.md b/_service/service_1.md
+new file mode 100644
+index 0000000..b457555
+--- /dev/null
++++ b/_service/service_1.md
+@@ -0,0 +1,5 @@
++---
++order: 1
++---
++
++Area Chair, <b>NeurIPS 2026</b>
+diff --git a/_service/service_10.md b/_service/service_10.md
+new file mode 100644
+index 0000000..4861ccb
+--- /dev/null
++++ b/_service/service_10.md
+@@ -0,0 +1,5 @@
++---
++order: 10
++---
++
++Area Chair, <b>WACV 2024</b>
+diff --git a/_service/service_11.md b/_service/service_11.md
+new file mode 100644
+index 0000000..0c08b1b
+--- /dev/null
++++ b/_service/service_11.md
+@@ -0,0 +1,5 @@
++---
++order: 11
++---
++
++Senior PC Member, <b>AAAI'23</b>
+diff --git a/_service/service_12.md b/_service/service_12.md
+new file mode 100644
+index 0000000..7951002
+--- /dev/null
++++ b/_service/service_12.md
+@@ -0,0 +1,5 @@
++---
++order: 12
++---
++
++Associate Editor, <b>IEEE TCSVT</b> [Jan 2022&ndash;]
+diff --git a/_service/service_13.md b/_service/service_13.md
+new file mode 100644
+index 0000000..458a981
+--- /dev/null
++++ b/_service/service_13.md
+@@ -0,0 +1,5 @@
++---
++order: 13
++---
++
++Area Chair, <b>CVPR 2022</b>
+diff --git a/_service/service_14.md b/_service/service_14.md
+new file mode 100644
+index 0000000..1143686
+--- /dev/null
++++ b/_service/service_14.md
+@@ -0,0 +1,5 @@
++---
++order: 14
++---
++
++Local arrangement chair, <b>IEEE BigData 2021</b>
+diff --git a/_service/service_15.md b/_service/service_15.md
+new file mode 100644
+index 0000000..8153f65
+--- /dev/null
++++ b/_service/service_15.md
+@@ -0,0 +1,5 @@
++---
++order: 15
++---
++
++Program chair, Workshop in <b>IEEE BigMM 2021</b>
+diff --git a/_service/service_16.md b/_service/service_16.md
+new file mode 100644
+index 0000000..0c38220
+--- /dev/null
++++ b/_service/service_16.md
+@@ -0,0 +1,5 @@
++---
++order: 16
++---
++
++PC member, <b>ICLR</b> [2021, 2022]
+diff --git a/_service/service_17.md b/_service/service_17.md
+new file mode 100644
+index 0000000..5e80388
+--- /dev/null
++++ b/_service/service_17.md
+@@ -0,0 +1,5 @@
++---
++order: 17
++---
++
++Associate Editor for <b>MVAP</b> [Jan 2020&ndash;]
+diff --git a/_service/service_18.md b/_service/service_18.md
+new file mode 100644
+index 0000000..2e1e228
+--- /dev/null
++++ b/_service/service_18.md
+@@ -0,0 +1,5 @@
++---
++order: 18
++---
++
++Served in NSF review panel 2021
+diff --git a/_service/service_19.md b/_service/service_19.md
+new file mode 100644
+index 0000000..dc48e15
+--- /dev/null
++++ b/_service/service_19.md
+@@ -0,0 +1,5 @@
++---
++order: 19
++---
++
++Area Chair, <b>ACM-MM</b> [2020, 2021]
+diff --git a/_service/service_2.md b/_service/service_2.md
+new file mode 100644
+index 0000000..70f4801
+--- /dev/null
++++ b/_service/service_2.md
+@@ -0,0 +1,5 @@
++---
++order: 2
++---
++
++Area Chair, <b>ACM MM 2026</b>
+diff --git a/_service/service_20.md b/_service/service_20.md
+new file mode 100644
+index 0000000..52f420a
+--- /dev/null
++++ b/_service/service_20.md
+@@ -0,0 +1,5 @@
++---
++order: 20
++---
++
++PC member, <b>NeurIPS</b> [2020, 2021]
+diff --git a/_service/service_21.md b/_service/service_21.md
+new file mode 100644
+index 0000000..8728ea8
+--- /dev/null
++++ b/_service/service_21.md
+@@ -0,0 +1,5 @@
++---
++order: 21
++---
++
++PC member, <b>ICCV 2021</b>
+diff --git a/_service/service_22.md b/_service/service_22.md
+new file mode 100644
+index 0000000..f4075b9
+--- /dev/null
++++ b/_service/service_22.md
+@@ -0,0 +1,5 @@
++---
++order: 22
++---
++
++I will serve as a PC member for <b>WACV 2022</b>
+diff --git a/_service/service_23.md b/_service/service_23.md
+new file mode 100644
+index 0000000..f3d594e
+--- /dev/null
++++ b/_service/service_23.md
+@@ -0,0 +1,5 @@
++---
++order: 23
++---
++
++I will serve as a PC member for <b>NeurIPS 2021</b>
+diff --git a/_service/service_24.md b/_service/service_24.md
+new file mode 100644
+index 0000000..05dcffa
+--- /dev/null
++++ b/_service/service_24.md
+@@ -0,0 +1,5 @@
++---
++order: 24
++---
++
++I will serve as a PC member for <b>ICCV 2021</b>
+diff --git a/_service/service_25.md b/_service/service_25.md
+new file mode 100644
+index 0000000..8833930
+--- /dev/null
++++ b/_service/service_25.md
+@@ -0,0 +1,5 @@
++---
++order: 25
++---
++
++I will serve as a PC member for <b>ICLR 2021</b>
+diff --git a/_service/service_26.md b/_service/service_26.md
+new file mode 100644
+index 0000000..6a9d8f6
+--- /dev/null
++++ b/_service/service_26.md
+@@ -0,0 +1,5 @@
++---
++order: 26
++---
++
++I will serve as a PC member for <b>AAAI 2021</b>
+diff --git a/_service/service_27.md b/_service/service_27.md
+new file mode 100644
+index 0000000..f8b2117
+--- /dev/null
++++ b/_service/service_27.md
+@@ -0,0 +1,5 @@
++---
++order: 27
++---
++
++I will serve as a PC member for <b>CVPR 2020</b>
+diff --git a/_service/service_28.md b/_service/service_28.md
+new file mode 100644
+index 0000000..2ae42fa
+--- /dev/null
++++ b/_service/service_28.md
+@@ -0,0 +1,5 @@
++---
++order: 28
++---
++
++I will serve as a PC member for <b>WACV 2021</b>
+diff --git a/_service/service_29.md b/_service/service_29.md
+new file mode 100644
+index 0000000..a99a459
+--- /dev/null
++++ b/_service/service_29.md
+@@ -0,0 +1,5 @@
++---
++order: 29
++---
++
++I will serve as a PC member for <b>HADCV workshop, WACV 2020</b>
+diff --git a/_service/service_3.md b/_service/service_3.md
+new file mode 100644
+index 0000000..131d512
+--- /dev/null
++++ b/_service/service_3.md
+@@ -0,0 +1,5 @@
++---
++order: 3
++---
++
++Area Chair, <b>ECCV 2026</b>
+diff --git a/_service/service_30.md b/_service/service_30.md
+new file mode 100644
+index 0000000..76f4a24
+--- /dev/null
++++ b/_service/service_30.md
+@@ -0,0 +1,5 @@
++---
++order: 30
++---
++
++I will serve as a PC member for <b>ICME 2020</b>
+diff --git a/_service/service_31.md b/_service/service_31.md
+new file mode 100644
+index 0000000..5d37464
+--- /dev/null
++++ b/_service/service_31.md
+@@ -0,0 +1,5 @@
++---
++order: 31
++---
++
++I will serve as a PC member for <b>WACV 2020</b>
+diff --git a/_service/service_32.md b/_service/service_32.md
+new file mode 100644
+index 0000000..09dbc7b
+--- /dev/null
++++ b/_service/service_32.md
+@@ -0,0 +1,5 @@
++---
++order: 32
++---
++
++I will serve as a PC member for <b>HADCV workshop, WACV 2020</b>
+diff --git a/_service/service_33.md b/_service/service_33.md
+new file mode 100644
+index 0000000..8cb8a8c
+--- /dev/null
++++ b/_service/service_33.md
+@@ -0,0 +1,5 @@
++---
++order: 33
++---
++
++I will serve as a PC member for <b>ACM MM 2019</b>
+diff --git a/_service/service_4.md b/_service/service_4.md
+new file mode 100644
+index 0000000..d01e1a0
+--- /dev/null
++++ b/_service/service_4.md
+@@ -0,0 +1,5 @@
++---
++order: 4
++---
++
++Area Chair, <b>CVPR 2026</b>
+diff --git a/_service/service_5.md b/_service/service_5.md
+new file mode 100644
+index 0000000..b1c5a94
+--- /dev/null
++++ b/_service/service_5.md
+@@ -0,0 +1,5 @@
++---
++order: 5
++---
++
++Area Chair, <b>ACM MM 2025</b>
+diff --git a/_service/service_6.md b/_service/service_6.md
+new file mode 100644
+index 0000000..d4f0cbe
+--- /dev/null
++++ b/_service/service_6.md
+@@ -0,0 +1,5 @@
++---
++order: 6
++---
++
++Area Chair, <b>CVPR 2025</b>
+diff --git a/_service/service_7.md b/_service/service_7.md
+new file mode 100644
+index 0000000..0aa6f7b
+--- /dev/null
++++ b/_service/service_7.md
+@@ -0,0 +1,5 @@
++---
++order: 7
++---
++
++Served in NSF review panel 2025
+diff --git a/_service/service_8.md b/_service/service_8.md
+new file mode 100644
+index 0000000..0908d34
+--- /dev/null
++++ b/_service/service_8.md
+@@ -0,0 +1,5 @@
++---
++order: 8
++---
++
++Area Chair, <b>ECCV 2024</b>
+diff --git a/_service/service_9.md b/_service/service_9.md
+new file mode 100644
+index 0000000..9427805
+--- /dev/null
++++ b/_service/service_9.md
+@@ -0,0 +1,5 @@
++---
++order: 9
++---
++
++Area Chair, <b>ACM MM 2024</b>
