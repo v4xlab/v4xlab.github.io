@@ -61,7 +61,7 @@ layout: default
       <h2>
         <a href="{{ '/service/' | relative_url }}" style="color: inherit">Service</a>
       </h2>
-      {% include service.liquid %}
+      {% include service.liquid limit=true %}
     {% endif %}
 
     <!-- Social -->

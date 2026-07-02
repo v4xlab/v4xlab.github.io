@@ -1,6 +1,9 @@
 <div class="service">
   {% if site.service != blank %}
     {% assign service_items = site.service | sort: 'order' %}
+    {% if include.limit and page.service.max_order %}
+      {% assign service_items = service_items | where_exp: "item", "item.order <= page.service.max_order" %}
+    {% endif %}
     <ul>
       {% for item in service_items %}
         <li>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</li>

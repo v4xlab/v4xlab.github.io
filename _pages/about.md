@@ -15,10 +15,12 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 10 # leave blank to include all the news in the `_news` folder
+  limit: 20 # leave blank to include all the news in the `_news` folder
+  min_year: 2025 # only show news from this year onward on the homepage
 
 service:
   enabled: true
+  max_order: 7 # only show 2025+ service items (order 1-7) on the homepage
 ---
 
 Our research group is focused on advancing computer vision and AI, particularly in the areas of video understanding, multimodal learning, and robust AI systems. Our work explores foundational models and machine learning techniques to tackle challenges like action recognition, anomaly detection, and resilience to adversarial conditions. We aim to develop intelligent systems that not only perceive but also reason about complex visual and multimodal data for real-world applications.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-3 papers accepted in <b>CVPR'25</b>, congrats to Xin, Shehreen, Aaryan and Akash! <a href="https://www.crcv.ucf.edu/2025/04/10/fourteen-papers-accepted-at-cvpr-2025/">[Link]</a>
+3 papers accepted in <b>CVPR'25</b>, congrats to <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DIFFER_Disentangling_Identity_Features_via_Semantic_Cues_for_Clothes-Changing_Person_CVPR_2025_paper.html">Xin</a>, <a href="https://sacrcv.github.io/HierarQ-website/">Shehreen</a>, <a href="https://aaryangrg.github.io/research/stpro">Aaryan</a> and <a href="https://aaryangrg.github.io/research/stpro">Akash</a>!
