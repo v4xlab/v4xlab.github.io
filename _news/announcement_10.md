@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper accepted in <b>CVPR 2024</b>, congrats to Shehreen!
+1 paper accepted in <b>CVPR 2024</b>, congrats to Shehreen! <a href="https://arxiv.org/abs/2403.17360">[Link]</a>

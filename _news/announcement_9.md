@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper accepted in <b>EMNLP (Findings) 2024</b>, congrats to Shresth!
+1 paper accepted in <b>EMNLP (Findings) 2024</b>, congrats to Shresth! <a href="https://aclanthology.org/2024.findings-emnlp.565/">[Link]</a>
