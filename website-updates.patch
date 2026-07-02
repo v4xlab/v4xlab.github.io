@@ -1,0 +1,551 @@
+diff --git a/_bibliography/papers.bib b/_bibliography/papers.bib
+index d8c6b05..762b21c 100644
+--- a/_bibliography/papers.bib
++++ b/_bibliography/papers.bib
+@@ -1,115 +1,157 @@
+ ---
+ ---
+ 
+-@string{aps = {American Physical Society,}}
++@comment{{Papers marked "Coming soon" do not yet have public preprint/code links.}}
+ 
+-@book{einstein1920relativity,
+-  title={Relativity: the Special and General Theory},
+-  author={Einstein, Albert},
+-  year={1920},
+-  publisher={Methuen & Co Ltd},
+-  html={relativity.html}
++@inproceedings{azad2026streamready,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={StreamReady: Learning What to Answer and When in Long Streaming Videos},
++  author={Azad, Shehreen and Vineet, Vibhav and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2026},
++  selected={true}
++}
++
++@inproceedings{wang2026sky2ground,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={Sky2Ground: A Benchmark for Site Modeling under Varying Altitude},
++  author={Wang, Zengyan and Mitra, Sirshapan and Modi, Rajat and Lim, Hui Xian Grace and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2026}
++}
++
++@inproceedings{mitra2026prodig,
++  abbr={CVPR Findings},
++  bibtex_show={true},
++  title={ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction},
++  author={Mitra, Sirshapan and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
++  year={2026}
++}
++
++@inproceedings{adak2025molvision,
++  abbr={NeurIPS},
++  bibtex_show={true},
++  title={MolVision: Molecular Property Prediction with Vision Language Models},
++  author={Adak, Deepan and Rawat, Yogesh and Vyas, Shruti},
++  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
++  year={2025},
++  url={https://neurips.cc/virtual/2025/poster/121822},
++  html={https://neurips.cc/virtual/2025/poster/121822},
++  website={https://chemvision.github.io/chemvision/}
+ }
+ 
+-@book{einstein1956investigations,
++@inproceedings{pathak2025colors,
++  abbr={ICCV},
+   bibtex_show={true},
+-  title={Investigations on the Theory of the Brownian Movement},
+-  author={Einstein, Albert},
+-  year={1956},
+-  publisher={Courier Corporation},
+-  preview={brownian-motion.gif}
++  title={Colors See Colors Ignore: Clothes Changing ReID with Color Disentanglement},
++  author={Pathak, Priyank and Rawat, Yogesh S.},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  year={2025},
++  url={https://arxiv.org/abs/2507.07230},
++  html={https://arxiv.org/abs/2507.07230},
++  code={https://github.com/ppriyank/ICCV-CSCI-Person-ReID},
++  selected={true}
+ }
+ 
+-@article{einstein1950meaning,
+-  abbr={AJP},
++@inproceedings{azad2025disenq,
++  abbr={ICCV},
+   bibtex_show={true},
+-  title={The meaning of relativity},
+-  author={Einstein, Albert and Taub, AH},
+-  journal={American Journal of Physics},
+-  volume={18},
+-  number={6},
+-  pages={403--404},
+-  year={1950},
+-  publisher={American Association of Physics Teachers}
++  title={DisenQ: Disentangling Q-Former for Activity-Biometrics},
++  author={Azad, Shehreen and Rawat, Yogesh},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  year={2025},
++  url={https://arxiv.org/abs/2507.07262},
++  html={https://arxiv.org/abs/2507.07262}
+ }
+ 
+-@article{PhysRev.47.777,
+-  abbr={PhysRev},
+-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+-  journal={Phys. Rev.},
+-  location={New Jersey},
+-  volume={47},
+-  issue={10},
+-  pages={777--780},
+-  numpages={0},
+-  year={1935},
+-  month={May},
+-  publisher=aps,
+-  doi={10.1103/PhysRev.47.777},
+-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+-  pdf={example_pdf.pdf},
+-  altmetric={248277},
+-  dimensions={true},
+-  google_scholar_id={qyhmnyLat1gC},
+-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+-  annotation={* Example use of superscripts<br>† Albert Einstein},
+-  selected={true},
+-  inspirehep_id = {3255}
++@inproceedings{abdullah2025punching,
++  abbr={ICCV},
++  bibtex_show={true},
++  title={Punching Bag vs. Punching Person: Motion Transferability in Videos},
++  author={Abdullah, Raiyaan and Claypoole, Jared and Cogswell, Michael and Divakaran, Ajay and Rawat, Yogesh},
++  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
++  year={2025},
++  url={https://iccv.thecvf.com/virtual/2025/poster/935},
++  html={https://iccv.thecvf.com/virtual/2025/poster/935}
++}
++
++@inproceedings{garg2025stpro,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding},
++  author={Garg, Aaryan and Kumar, Akash and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2025},
++  url={https://aaryangrg.github.io/research/stpro},
++  html={https://aaryangrg.github.io/research/stpro}
++}
++
++@inproceedings{azad2025hierarq,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={HierarQ: Task-Aware Hierarchical Q-Former for Enhanced Video Understanding},
++  author={Azad, Shehreen and Vineet, Vibhav and Rawat, Yogesh Singh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  pages={8545--8556},
++  year={2025},
++  url={https://arxiv.org/abs/2503.08585},
++  html={https://arxiv.org/abs/2503.08585},
++  selected={true}
+ }
+ 
+-@article{einstein1905molekularkinetischen,
+-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+-  author={Einstein, A.},
+-  journal={Annalen der physik},
+-  volume={322},
+-  number={8},
+-  pages={549--560},
+-  year={1905},
+-  publisher={Wiley Online Library}
++@inproceedings{liang2025differ,
++  abbr={CVPR},
++  bibtex_show={true},
++  title={DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID},
++  author={Liang, Xin and Rawat, Yogesh},
++  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
++  year={2025},
++  url={https://cvpr.thecvf.com/virtual/2025/poster/33555},
++  html={https://cvpr.thecvf.com/virtual/2025/poster/33555}
+ }
+ 
+-@article{einstein1905movement,
+-  abbr={Ann. Phys.},
+-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+-  author={Einstein, A.},
+-  journal={Ann. Phys.},
+-  volume={17},
+-  pages={549--560},
+-  year={1905}
++@inproceedings{pathak2025lr0fm,
++  abbr={ICLR},
++  bibtex_show={true},
++  title={LR0.FM: Low-Resolution Zero-Shot Classification Benchmark for Foundation Models},
++  author={Pathak, Priyank and Marjit, Shyam and Vyas, Shruti and Rawat, Yogesh S.},
++  booktitle={International Conference on Learning Representations (ICLR)},
++  year={2025},
++  url={https://arxiv.org/abs/2502.03950},
++  html={https://arxiv.org/abs/2502.03950},
++  code={https://github.com/shyammarjit/LR0.FM}
+ }
+ 
+-@article{einstein1905electrodynamics,
+-  title={On the electrodynamics of moving bodies},
+-  author={Einstein, A.},
+-  year={1905}
++@inproceedings{kumar2025cospal,
++  abbr={ICLR},
++  bibtex_show={true},
++  title={Contextual Self-paced Learning for Weakly Supervised Spatio-Temporal Video Grounding},
++  author={Kumar, Akash and Kira, Zsolt and Rawat, Yogesh Singh},
++  booktitle={International Conference on Learning Representations (ICLR)},
++  year={2025},
++  url={https://arxiv.org/abs/2501.17053},
++  html={https://arxiv.org/abs/2501.17053}
+ }
+ 
+-@Article{einstein1905photoelectriceffect,
++@article{ahmad2025t2l,
++  abbr={TMLR},
+   bibtex_show={true},
+-  abbr={Ann. Phys.},
+-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
+-  author={Albert Einstein},
+-  abstract={This is the abstract text.},
+-  journal={Ann. Phys.},
+-  volume={322},
+-  number={6},
+-  pages={132--148},
+-  year={1905},
+-  doi={10.1002/andp.19053220607},
+-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+-  award_name={Nobel Prize}
++  title={T2L: Efficient Zero-Shot Action Recognition with Temporal Token Learning},
++  author={Ahmad, Shahzad and Chanda, Sukalpa and Rawat, Yogesh S.},
++  journal={Transactions on Machine Learning Research (TMLR)},
++  year={2025}
+ }
+ 
+-@book{przibram1967letters,
++@inproceedings{kumar2025stable,
++  abbr={AAAI},
+   bibtex_show={true},
+-  title={Letters on wave mechanics},
+-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+-  year={1967},
+-  publisher={Vision},
+-  preview={wave-mechanics.gif},
+-  abbr={Vision}
++  title={Stable Mean Teacher for Semi-supervised Video Action Detection},
++  author={Kumar, Akash and Mitra, Sirshapan and Rawat, Yogesh Singh},
++  booktitle={AAAI Conference on Artificial Intelligence},
++  year={2025},
++  url={https://arxiv.org/abs/2412.07072},
++  html={https://arxiv.org/abs/2412.07072}
+ }
+diff --git a/_data/cv.yml b/_data/cv.yml
+index 5885b30..d2c69c5 100644
+--- a/_data/cv.yml
++++ b/_data/cv.yml
+@@ -2,96 +2,66 @@
+   type: map
+   contents:
+     - name: Full Name
+-      value: Albert Einstein
+-    - name: Date of Birth
+-      value: 14th March 1879
+-    - name: Languages
+-      value: English, German
++      value: Yogesh Singh Rawat
++    - name: Position
++      value: Associate Professor, Center for Research in Computer Vision (CRCV), University of Central Florida
++    - name: Email
++      value: yogesh@crcv.ucf.edu
+ 
+ - title: Education
+   type: time_table
+   contents:
+-    - title: PhD
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1905
+-      description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Federal teaching diploma
+-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+-      year: 1900
+-      description:
+-        - Description 1.
+-        - Description 2.
++    - title: Ph.D. in Computer Science
++      institution: National University of Singapore, Singapore
++      year: 2017
+ 
+ - title: Experience
+   type: time_table
+   contents:
+-    - title: Professor of Theoretical Physics
+-      institution: Institute for Advanced Study, Princeton University
+-      year: 1933 - 1955
+-      description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Visiting Professor
+-      institution: California Institute of Technology, Pasadena, California, US
+-      year: 1933
+-      description:
+-        - Description 1.
+-        - Description 2.
++    - title: Associate Professor
++      institution: Department of Computer Science / Center for Research in Computer Vision, University of Central Florida
++      year: 2024 - Present
++    - title: Assistant Professor
++      institution: Department of Computer Science / Center for Research in Computer Vision, University of Central Florida
++      year: 2019 - 2024
++    - title: Postdoctoral Fellow
++      institution: Center for Research in Computer Vision, University of Central Florida
++      year: 2017 - 2019
++    - title: Senior Member of Technical Staff
++      institution: Mentor Graphics, India
++      year: 2009 - 2012
+ 
+-    - title: Director
+-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+-      year: 1917-1933
+-
+-    - title: Professor of Theoretical Physics
+-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+-      year: 1911 - 1917
+-      description:
+-
+-    - title: Associate Professor of Theoretical Physics
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1909 - 1911
+-
+-- title: Open Source Projects
+-  type: time_table
+-  contents:
+-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+-      year: 2015-now
+-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+-
+-- title: Honors and Awards
+-  type: time_table
++- title: Research Interests
++  type: nested_list
+   contents:
+-    - year: 1921
++    - title: Computer Vision & Video Understanding
+       items:
+-        - Nobel Prize in Physics
+-        - Matteucci Medal
+-    - year: 2029
++        - Action and activity recognition and detection
++        - Spatio-temporal video grounding
++    - title: Multimodal Learning
+       items:
+-        - Max Planck Medal
++        - Vision-language foundation models
++        - Video question answering and reasoning
++    - title: Robust and Trustworthy AI
++      items:
++        - Resilience to adversarial and low-resolution conditions
++        - Semi-supervised and weakly-supervised learning
+ 
+-- title: Academic Interests
++- title: Professional Service
+   type: nested_list
+   contents:
+-    - title: Topic 1.
++    - title: Program Committees
+       items:
+-        - Description 1.
+-        - Description 2.
+-    - title: Topic 2.
++        - ACM Multimedia (ACM MM)
++        - IEEE Winter Conference on Applications of Computer Vision (WACV)
++    - title: Journal Reviewing
+       items:
+-        - Description 1.
+-        - Description 2.
++        - IEEE Transactions on Multimedia
++        - ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+ 
+-- title: Other Interests
+-  type: list
++- title: Open Source Projects
++  type: time_table
+   contents:
+-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
++    - title: <a href="https://github.com/v4xlab/v4xlab.github.io">Lab website (al-folio based)</a>
++      year: 2026
++      description: Group website for the CRCV Video Understanding & Multimodal AI Lab.
+diff --git a/_data/socials.yml b/_data/socials.yml
+index 20cf38a..85a218b 100644
+--- a/_data/socials.yml
++++ b/_data/socials.yml
+@@ -7,14 +7,14 @@
+ # bluesky_url: # your bluesky URL
+ # dblp_url: # your DBLP profile url
+ # discord_id: # your discord id (18-digit unique numerical identifier)
+-email: you@example.com # your email address
++email: yogesh@crcv.ucf.edu # your email address
+ # facebook_id: # your facebook id
+ # flickr_id: # your flickr id
+ # github_username: # your GitHub user name
+ # gitlab_username: # your GitLab user name
+ # hal_id: # your HAL id (https://hal.science/)
+ # ieee_id: # your ieeexplore.ieee.org/author/id
+-inspirehep_id: 1010907 # Inspire HEP author ID
++# inspirehep_id: # Inspire HEP author ID
+ # instagram_id: # your instagram id
+ # kaggle_id: # your kaggle id
+ # keybase_username: # your keybase user name
+@@ -31,7 +31,7 @@ inspirehep_id: 1010907 # Inspire HEP author ID
+ # quora_username: # your Quora username
+ # research_gate_profile: # your profile on ResearchGate
+ rss_icon: true # comment this line to hide the RSS icon
+-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
++scholar_userid: D_JvEcwAAAAJ # your Google Scholar ID
+ # scopus_id: # your profile on Scopus
+ # semanticscholar_id: # your Semantic Scholar ID
+ # spotify_id: # your spotify id
+@@ -48,6 +48,6 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+ # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+ # zotero_username: # your zotero username
+ custom_social: # can be any name here other than the ones already defined above
+-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+-  title: Custom Social
+-  url: https://www.alberteinstein.com/
++  logo: https://www.crcv.ucf.edu/wp-content/uploads/2019/07/cropped-favicon-192x192.png # can be png, svg, jpg
++  title: CRCV Faculty Page
++  url: https://www.crcv.ucf.edu/person/rawat/
+diff --git a/_news/announcement_1.md b/_news/announcement_1.md
+index e5349ce..4ce3825 100644
+--- a/_news/announcement_1.md
++++ b/_news/announcement_1.md
+@@ -1,8 +1,8 @@
+ ---
+ layout: post
+-date: 2015-10-22 15:59:00-0400
++date: 2026-01-15 09:00:00-0400
+ inline: true
+ related_posts: false
+ ---
+ 
+-A simple inline announcement.
++Three papers accepted to **CVPR 2026**, including *StreamReady*, *Sky2Ground*, and *ProDiG*.
+diff --git a/_news/announcement_2.md b/_news/announcement_2.md
+index 9269395..dfd5212 100644
+--- a/_news/announcement_2.md
++++ b/_news/announcement_2.md
+@@ -1,33 +1,8 @@
+ ---
+ layout: post
+-title: A long announcement with details
+-date: 2015-11-07 16:11:00-0400
+-inline: false
++date: 2025-11-30 09:00:00-0400
++inline: true
+ related_posts: false
+ ---
+ 
+-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+-
+----
+-
+-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+-
+-#### Hipster list
+-
+-<ul>
+-    <li>brunch</li>
+-    <li>fixie</li>
+-    <li>raybans</li>
+-    <li>messenger bag</li>
+-</ul>
+-
+-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+-
+----
+-
+-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+-
+-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+-> —Anais Nin
+-
+-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
++*MolVision: Molecular Property Prediction with Vision Language Models* accepted to **NeurIPS 2025**.
+diff --git a/_news/announcement_3.md b/_news/announcement_3.md
+index 4d54088..b0202da 100644
+--- a/_news/announcement_3.md
++++ b/_news/announcement_3.md
+@@ -1,8 +1,8 @@
+ ---
+ layout: post
+-date: 2016-01-15 07:59:00-0400
++date: 2025-08-19 09:00:00-0400
+ inline: true
+ related_posts: false
+ ---
+ 
+-A simple inline announcement with Markdown emoji! :sparkles: :smile:
++Group papers accepted to **ICCV 2025**, including *Colors See Colors Ignore*, *DisenQ*, and *Punching Bag vs. Punching Person*.
+diff --git a/_news/announcement_4.md b/_news/announcement_4.md
+new file mode 100644
+index 0000000..8ea4c29
+--- /dev/null
++++ b/_news/announcement_4.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2025-04-10 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Four papers accepted to **CVPR 2025**: *STPro*, *HierarQ*, and *DIFFER*.
+diff --git a/_news/announcement_5.md b/_news/announcement_5.md
+new file mode 100644
+index 0000000..bff05f5
+--- /dev/null
++++ b/_news/announcement_5.md
+@@ -0,0 +1,8 @@
++---
++layout: post
++date: 2025-01-28 09:00:00-0400
++inline: true
++related_posts: false
++---
++
++Two papers accepted to **ICLR 2025**: *LR0.FM* and *Contextual Self-paced Learning (CoSPaL)*.
+diff --git a/_news/announcement_6.md b/_news/announcement_6.md
+new file mode 100644
+index 0000000..9efbb76
+--- /dev/null
++++ b/_news/announcement_6.md
+@@ -0,0 +1,9 @@
++---
++layout: post
++title: Microsoft Research gift supports multimodal reasoning research
++date: 2024-09-15 09:00:00-0400
++inline: false
++related_posts: false
++---
++
++Our proposal on evaluation of multimodal foundation models for geometry- and motion-aware reasoning, developed with collaborators at Microsoft Research, was selected to receive an unrestricted gift along with Azure compute credits to support ongoing research in multimodal understanding.

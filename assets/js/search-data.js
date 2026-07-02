@@ -412,16 +412,25 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-microsoft-research-gift-supports-multimodal-reasoning-research",
+          title: 'Microsoft Research gift supports multimodal reasoning research',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-two-papers-accepted-to-iclr-2025-lr0-fm-and-contextual-self-paced-learning-cospal",
+          title: 'Two papers accepted to ICLR 2025: LR0.FM and Contextual Self-paced Learning (CoSPaL).',
+          description: "",
+          section: "News",},{id: "news-four-papers-accepted-to-cvpr-2025-stpro-hierarq-and-differ",
+          title: 'Four papers accepted to CVPR 2025: STPro, HierarQ, and DIFFER.',
+          description: "",
+          section: "News",},{id: "news-group-papers-accepted-to-iccv-2025-including-colors-see-colors-ignore-disenq-and-punching-bag-vs-punching-person",
+          title: 'Group papers accepted to ICCV 2025, including Colors See Colors Ignore, DisenQ, and...',
+          description: "",
+          section: "News",},{id: "news-molvision-molecular-property-prediction-with-vision-language-models-accepted-to-neurips-2025",
+          title: 'MolVision: Molecular Property Prediction with Vision Language Models accepted to NeurIPS 2025.',
+          description: "",
+          section: "News",},{id: "news-three-papers-accepted-to-cvpr-2026-including-streamready-sky2ground-and-prodig",
+          title: 'Three papers accepted to CVPR 2026, including StreamReady, Sky2Ground, and ProDiG.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -473,14 +482,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("mailto:%79%6F%67%65%73%68@%63%72%63%76.%75%63%66.%65%64%75", "_blank");
         },
       },{
         id: 'social-rss',
@@ -494,14 +496,14 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=D_JvEcwAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.crcv.ucf.edu/person/rawat/", "_blank");
         },
       },{
       id: 'light-theme',
