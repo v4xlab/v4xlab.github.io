@@ -1,0 +1,12 @@
+<div class="service">
+  {% if site.service != blank %}
+    {% assign service_items = site.service | sort: 'order' %}
+    <ul>
+      {% for item in service_items %}
+        <li>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No service listed so far...</p>
+  {% endif %}
+</div>

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Professor, CRCV, <a href='https://www.ucf.edu/'>University of Central Florida</a>.
+subtitle: Associate Professor, <a href='https://ai.ucf.edu/'>IAI</a>, <a href='https://www.crcv.ucf.edu/'>CRCV</a>, <a href='https://www.ucf.edu/'>University of Central Florida</a>.
 
 profile:
   align: left
@@ -17,10 +17,8 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 10 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
+service:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 10 # leave blank to include all the blog posts
 ---
 
 Our research group is focused on advancing computer vision and AI, particularly in the areas of video understanding, multimodal learning, and robust AI systems. Our work explores foundational models and machine learning techniques to tackle challenges like action recognition, anomaly detection, and resilience to adversarial conditions. We aim to develop intelligent systems that not only perceive but also reason about complex visual and multimodal data for real-world applications.

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-10 09:00:00-0400
+date: 2025-03-27 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Four papers accepted to **CVPR 2025**: *STPro*, *HierarQ*, and *DIFFER*.
+Received UCF's <b>Reach for the Stars Award 2025</b>! <a href="https://ai.ucf.edu/dr-yogesh-rawat-named-as-a-2025-reach-for-the-stars-award-recipient/">[Link]</a>

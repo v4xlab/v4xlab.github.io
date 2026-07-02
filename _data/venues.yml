@@ -1,3 +1,79 @@
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#4285F4"
+
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#EA4335"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#FBBC05"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#34A853"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#8E44AD"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#16A085"
+
+"WACV":
+  url: https://wacv.thecvf.com/
+  color: "#E67E22"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#2C3E50"
+
+"EMNLP":
+  url: https://2024.emnlp.org/
+  color: "#C0392B"
+
+"ACM MM":
+  url: https://www.acmmm.org/
+  color: "#2980B9"
+
+"NeurIPS Findings":
+  url: https://neurips.cc/
+  color: "#8E44AD"
+
+"CVPR Findings":
+  url: https://cvpr.thecvf.com/
+  color: "#4285F4"
+
+"TOMM":
+  url: https://dl.acm.org/journal/tomm
+  color: "#7F8C8D"
+
+"TCSVT":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-circuits-and-systems-video-technology
+  color: "#7F8C8D"
+
+"TMM":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia
+  color: "#7F8C8D"
+
+"ICFHR":
+  url: https://icfhr2024.org/
+  color: "#95A5A6"
+
+"ICPR":
+  url: https://www.icpr2024.fr/
+  color: "#95A5A6"
+
+"CSUR":
+  url: https://dl.acm.org/journal/csur
+  color: "#7F8C8D"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"

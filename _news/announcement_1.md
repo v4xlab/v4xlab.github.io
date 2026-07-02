@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-01-15 09:00:00-0400
+date: 2026-07-01 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Three papers accepted to **CVPR 2026**, including *StreamReady*, *Sky2Ground*, and *ProDiG*.
+4 papers accepted in <b>ECCV'26</b>, congrats to Raiyaan, Rajat, Priyank and Shresth!

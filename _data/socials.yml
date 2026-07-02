@@ -47,7 +47,11 @@ scholar_userid: D_JvEcwAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.crcv.ucf.edu/wp-content/uploads/2019/07/cropped-favicon-192x192.png # can be png, svg, jpg
+crcv_page: # can be any name here other than the ones already defined above
+  icon: fa-solid fa-camera-retro
   title: CRCV Faculty Page
   url: https://www.crcv.ucf.edu/person/rawat/
+iai_page:
+  icon: fa-solid fa-brain
+  title: Institute for AI (IAI)
+  url: https://ai.ucf.edu/

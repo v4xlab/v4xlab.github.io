@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-30 09:00:00-0400
+date: 2026-02-27 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-*MolVision: Molecular Property Prediction with Vision Language Models* accepted to **NeurIPS 2025**.
+3 papers accepted in <b>CVPR'26</b>, congrats to Shehreen, Zen, Sirs, Rajat, Grace!
