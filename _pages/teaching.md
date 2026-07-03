@@ -11,27 +11,27 @@ nav_order: 7
 
 An advanced graduate seminar that puts students at the cutting edge of computer vision, multimodal learning, and embodied intelligence &mdash; transformers for vision, contrastive and foundation models, large vision-language models, diffusion-based generative models, and world models that combine perception with decision-making. Half the course builds foundations; the other half is a critical, paper-driven deep dive into frontier research, culminating in a team research project.
 
-- [Spring 2026](https://www.crcv.ucf.edu/courses/cap6412-spring-2026/)
-- Spring 2018
+- [Spring 2026](https://www.crcv.ucf.edu/courses/cap6412-spring-2026/) &nbsp;<span class="video-tag">[[videos](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkQXKGWRa-eHqVhCfTqAihV)]</span>
+- Spring 2018 &nbsp;<span class="video-tag">(co-instructed)</span>
 
 ---
 
 ## CAP5415 &mdash; Computer Vision
 
-A graduate-level introduction to computer vision, blending classical and deep learning approaches. Covers imaging geometry, camera models, image filtering, edge and feature detection, image classification, object detection, scene understanding, action recognition, and optical flow &mdash; building the foundation for advanced vision research. Includes weekly homework, programming assignments, and a course project.
+A graduate-level introduction to computer vision, blending classical and deep learning approaches. Covers imaging geometry, camera models, image filtering, edge and feature detection, image classification, object detection, scene understanding, action recognition, and optical flow &mdash; building the foundation for advanced vision research. Includes weekly homework, programming assignments, and a course project. Enrollment has grown from ~30 to ~150 students over the past several years.
 
-- [Fall 2025](https://www.crcv.ucf.edu/courses/cap5415-fall-2025/) &nbsp;<span class="video-tag">[videos available]</span>
-- [Fall 2024](https://www.crcv.ucf.edu/courses/cap5415-fall-2024/) &nbsp;<span class="video-tag">[videos available]</span>
-- Fall 2023 &nbsp;<span class="video-tag">[videos available]</span>
-- [Fall 2022](https://www.crcv.ucf.edu/courses/cap5415-fall-2022/) &nbsp;<span class="video-tag">[videos available]</span>
-- [Fall 2021](https://www.crcv.ucf.edu/courses/cap5415-fall-2021/) &nbsp;<span class="video-tag">[videos available]</span>
-- [Fall 2020](https://www.crcv.ucf.edu/courses/cap5415-fall-2020/) &nbsp;<span class="video-tag">[videos available]</span>
+- [Fall 2025](https://www.crcv.ucf.edu/courses/cap5415-fall-2025/)
+- [Fall 2024](https://www.crcv.ucf.edu/courses/cap5415-fall-2024/)
+- Fall 2023 &nbsp;<span class="video-tag">[[videos](https://www.youtube.com/playlist?list=PLd3hlSJsX_InWyCQtwqQ7y6KnwhxNCgRf)]</span>
+- [Fall 2022](https://www.crcv.ucf.edu/courses/cap5415-fall-2022/) &nbsp;<span class="video-tag">[[videos](https://www.youtube.com/playlist?list=PLd3hlSJsX_Im0zAkTX3ogoiDN9Y7G6tSx)]</span>
+- [Fall 2021](https://www.crcv.ucf.edu/courses/cap5415-fall-2021/) &nbsp;<span class="video-tag">[[videos](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN)]</span>
+- [Fall 2020](https://www.crcv.ucf.edu/courses/cap5415-fall-2020/) &nbsp;<span class="video-tag">[[videos](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ikm5il1HgmDB_z62BeoikFX)]</span>
 
 ---
 
-## Robot Vision
+## CAP4453 &mdash; Robot Vision
 
-A course on the perception side of robotics &mdash; applying computer vision techniques to enable robots to sense, interpret, and act in the physical world.
+An undergraduate course applying computer vision techniques to enable robots to sense, interpret, and act in the physical world &mdash; redesigned to integrate recent deep learning advances.
 
 - Spring 2021
 
@@ -39,7 +39,7 @@ A course on the perception side of robotics &mdash; applying computer vision tec
 
 ## Tutorials & Talks
 
-- Organized a tutorial on Capsule Networks at CVPR 2019 &mdash; [Survey video] [Full tutorial video]
+- Organized a tutorial on Capsule Networks at CVPR 2019 &mdash; [[Tutorial page](https://www.crcv.ucf.edu/2019/06/17/capsule-networks-for-computer-vision-cvpr-2019-tutorial/)] [[Survey video](https://www.youtube.com/watch?v=OwzsIoNr-zo)] [[Full tutorial video](https://www.youtube.com/watch?v=_-RU9Yoca84)]
 - Press coverage (Robinly) @ CVPR 2019
 - Introduction to Deep Learning &mdash; REU 2019, 2020
 - Introduction to Deep Learning &mdash; CAP6412 2018

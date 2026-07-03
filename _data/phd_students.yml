@@ -1,8 +1,39 @@
 - name: Shehreen Azad
-- name: Akash Kumar
-- name: Xin Liang
-- name: Sirshapan Mitra
-- name: Rajat Modi
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Shehreen_Azad.jpeg
+  years: "2023&ndash;present"
+  blurb: Works on long-form video understanding and activity-based biometrics, with recent work on hierarchical video-language models and streaming video understanding.
+
 - name: Priyank Pathak
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Priyank_Pathak.jpg
+  website: https://ppriyank.github.io/
+  years: "2023&ndash;present"
+  blurb: Focuses on clothes-changing person re-identification and the robustness of foundation models to low-resolution and noisy inputs.
+
+- name: Rajat Modi
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Rajat_Modi-1.jpeg
+  years: "2021&ndash;present"
+  blurb: Researches efficient test-time learning and robustness to occlusion in video action detection, most recently extending test-time training to long videos.
+
 - name: Raiyaan Abdullah
-- name: Hui Xian Grace Lim
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Raiyaan_Abdullah.jpg
+  website: https://raiyaan.xyz/
+  years: "2023&ndash;present"
+  blurb: Studies motion transferability and safety in video-language models, including action denial and industrial safety benchmarking.
+
+- name: Xin Liang
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Xing_Liang.jpeg
+  years: "2024&ndash;present"
+  blurb: Works on clothes-changing person re-identification, disentangling identity from appearance-changing cues.
+
+- name: Grace Lim
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Grace_Lim.jpg
+  years: "2024&ndash;present"
+  blurb: Explores generative motion-to-sketch synthesis and 3D site modeling from imagery captured at varying altitudes.
+
+- name: Sirshapan Mitra
+  photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Sirshapan_Mitra.jpg
+  years: "2024&ndash;present"
+  blurb: Works on semi-supervised video action detection and diffusion-based 3D reconstruction and gait synthesis.
+
+- name: Nathan Couch
+  years: "2026&ndash;present"

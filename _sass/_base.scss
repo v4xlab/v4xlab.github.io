@@ -1515,3 +1515,87 @@ h2 a:hover .section-link-arrow {
   opacity: 1;
   margin-left: 0.5rem;
 }
+
+/* Repositories page - static, reliable cards (no external stats-image service) */
+.repo-card {
+  display: block;
+  text-decoration: none;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  transition:
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+    color: var(--global-text-color);
+  }
+}
+
+.repo-user-card {
+  text-align: center;
+  width: 140px;
+
+  .repo-avatar {
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  .repo-user-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
+
+.repo-repo-card {
+  width: 280px;
+
+  .repo-repo-name {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+
+  .repo-repo-desc {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    margin-bottom: 0.5rem;
+    min-height: 2.6em;
+  }
+
+  .repo-repo-meta {
+    font-size: 0.8rem;
+    opacity: 0.65;
+
+    .repo-lang {
+      margin-right: 0.75rem;
+    }
+  }
+}
+
+/* Projects page cards - force consistent image sizing regardless of source aspect ratio */
+.projects {
+  .card-img-top {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+
+    .card-title {
+      font-size: 1.15rem;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+  }
+}

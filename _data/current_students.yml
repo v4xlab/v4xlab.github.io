@@ -1,18 +1,22 @@
+- name: Zhen Hao Sia
+  role: Master's Student
+- name: Reeshoon Sayera
+  role: "Master's Student (Best Thesis Award)"
+- name: Zengyan Wang
+  role: Master's Student
+- name: Alejandro Aparcedo
+  role: Master's Student
+- name: Sebastian Noel
+  role: Intern
 - name: Shresth Grover
   role: Intern
 - name: Aaryan Garg
-  role: Student Collaborator
+  role: Intern
 - name: Shyam Marjit
-  role: Student Collaborator
-- name: Zhen Hao Sia
-  role: Student Collaborator
+  role: Intern
 - name: Deepan Adak
-  role: Student Collaborator
-- name: Zengyan Wang
-  role: Student Collaborator
-- name: Reeshoon Sayera
-  role: Student Collaborator
+  role: Intern
 - name: Aaditya Baranwal
-  role: Student Collaborator
+  role: Intern
 - name: Mukilan Karuppasamy
-  role: Student Collaborator
+  role: Intern

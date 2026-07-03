@@ -42,25 +42,28 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Recent News <span class="section-link-arrow">&rarr;</span></a>
-      </h2>
+      <div class="section-heading-row">
+        <h2>Recent News</h2>
+        <a class="view-all-link" href="{{ '/news/' | relative_url }}">All News &rarr;</a>
+      </div>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Recent Publications <span class="section-link-arrow">&rarr;</span></a>
-      </h2>
+      <div class="section-heading-row">
+        <h2>Recent Publications</h2>
+        <a class="view-all-link" href="{{ '/publications/' | relative_url }}">All Publications &rarr;</a>
+      </div>
       {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Service -->
     {% if page.service and page.service.enabled %}
-      <h2>
-        <a href="{{ '/service/' | relative_url }}" style="color: inherit">Service <span class="section-link-arrow">&rarr;</span></a>
-      </h2>
+      <div class="section-heading-row">
+        <h2>Service</h2>
+        <a class="view-all-link" href="{{ '/service/' | relative_url }}">All Service &rarr;</a>
+      </div>
       {% include service.liquid limit=true %}
     {% endif %}
 

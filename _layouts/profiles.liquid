@@ -36,11 +36,35 @@ layout: page
     {% if site.data.phd_students %}
       <hr>
       <h2>PhD Students</h2>
-      <ul class="team-list">
+      <div class="team-grid">
         {% for student in site.data.phd_students %}
-          <li>{{ student.name }}</li>
+          <div class="team-card">
+            {% if student.photo %}
+              <img
+                class="team-photo"
+                src="{{ student.photo }}"
+                alt="{{ student.name }}"
+                width="160"
+                height="160"
+                loading="lazy"
+              >
+            {% endif %}
+            <div class="team-name">
+              {% if student.website %}
+                <a href="{{ student.website }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+              {% else %}
+                {{ student.name }}
+              {% endif %}
+            </div>
+            <div class="team-years">
+              PhD Student{% if student.years %}, {{ student.years }}{% endif %}
+            </div>
+            {% if student.blurb %}
+              <div class="team-blurb">{{ student.blurb }}</div>
+            {% endif %}
+          </div>
         {% endfor %}
-      </ul>
+      </div>
     {% endif %}
 
     {% if site.data.current_students %}

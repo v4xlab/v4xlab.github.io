@@ -1,0 +1,11 @@
+---
+layout: page
+title: Video Understanding
+description: Foundational video representation learning, cross-view and novel-view synthesis, and video segmentation.
+img: assets/img/2.jpg
+importance: 11
+category: research
+related_publications: true
+---
+
+{% cite vyas2018time %} {% cite vyas2020multi %} {% cite schatz2020recurrent %} {% cite li2021pose %} {% cite shiraz2021novel %} {% cite biyani2021larnet %} {% cite rawat2020view %} {% cite mcintosh2020visual %} {% cite duarte2019capsulevos %} {% cite duarte2018videocapsulenet %} {% cite duarte2021plm %}

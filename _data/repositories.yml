@@ -8,21 +8,55 @@ github_users:
   - rajatmodi62
   - Shahzadnit
 
-repo_description_lines_max: 2
-
 github_repos:
-  - ppriyank/ICCV-CSCI-Person-ReID
-  - sacrcv/DisenQ
-  - raiyaan-abdullah/Motion-Transfer
-  - aaryangrg/STPro
-  - sacrcv/HierarQ
-  - shyammarjit/LR0.FM
-  - AKASH2907/copsal-weakly-stvg
-  - AKASH2907/stable-mean-teacher
-  - AKASH2907/pi-consistency-activity-detection
-  - Shahzadnit/T2L
-  - rajatmodi62/apm
-  - sacrcv/Activity-Biometrics
-  - molvision/MolVision
-  - sacrcv/StreamReady-website
-  - xliangp/DIFFER
+  - repo: ppriyank/ICCV-CSCI-Person-ReID
+    description: 'Official code for "Colors See Colors Ignore: Clothes Changing ReID with Color Disentanglement" (ICCV 2025).'
+    language: Python
+  - repo: sacrcv/DisenQ
+    description: 'Official codebase of "DisenQ: Disentangling Q-Former for Activity-Biometrics" (ICCV 2025).'
+    language: Python
+    stars: 0
+  - repo: raiyaan-abdullah/Motion-Transfer
+    description: 'Official code for "Punching Bag vs. Punching Person: Motion Transferability in Videos" (ICCV 2025).'
+    language: Python
+  - repo: aaryangrg/STPro
+    description: 'Official code for "STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding" (CVPR 2025).'
+    language: Python
+  - repo: sacrcv/HierarQ
+    description: 'Official repository of "HierarQ: Task-Aware Hierarchical Q-Former for Enhanced Video Understanding" (CVPR 2025).'
+    language: Python
+    stars: 2
+  - repo: shyammarjit/LR0.FM
+    description: 'Official code for "LR0.FM: Low-Resolution Zero-Shot Classification Benchmark for Foundation Models" (ICLR 2025).'
+    language: Python
+  - repo: AKASH2907/copsal-weakly-stvg
+    description: 'Official code for "Contextual Self-paced Learning for Weakly Supervised Spatio-Temporal Video Grounding" (ICLR 2025).'
+    language: Python
+    stars: 1
+  - repo: AKASH2907/stable-mean-teacher
+    description: 'Official code for "Stable Mean Teacher for Semi-supervised Video Action Detection" (AAAI 2025).'
+    language: Python
+    stars: 6
+  - repo: AKASH2907/pi-consistency-activity-detection
+    description: 'Official code for "End-to-End Semi-Supervised Learning for Video Action Detection" (CVPR 2022).'
+    language: Python
+  - repo: Shahzadnit/T2L
+    description: 'Official code for "T2L: Efficient Zero-Shot Action Recognition with Temporal Token Learning" (TMLR 2025).'
+    language: Python
+  - repo: rajatmodi62/apm
+    description: 'Official code for "Asynchronous Perception Machine for Efficient Test-Time-Training" (NeurIPS 2024).'
+    language: Python
+  - repo: sacrcv/Activity-Biometrics
+    description: 'Official code for "Activity-Biometrics: Person Identification from Daily Activities" (CVPR 2024).'
+    language: Python
+    stars: 2
+  - repo: molvision/MolVision
+    description: 'Official implementation and benchmark evaluation for "MolVision: Molecular Property Prediction with Vision Language Models" (NeurIPS 2025 D&B).'
+    language: "Jupyter Notebook"
+    stars: 6
+  - repo: sacrcv/StreamReady-website
+    description: 'Project website for "StreamReady: Learning What to Answer and When in Long Streaming Videos" (CVPR 2026).'
+    language: JavaScript
+  - repo: xliangp/DIFFER
+    description: 'Official code for "DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID" (CVPR 2025).'
+    language: Python
