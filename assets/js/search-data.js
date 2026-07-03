@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "GitHub profiles and repositories from our research group.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -543,6 +543,9 @@ ninja.data = [{
           section: "News",},{id: "news-received-ucf-s-reach-for-the-stars-award-2025-link",
           title: 'Received UCF’s Reach for the Stars Award 2025! [Link]',
           description: "",
+          section: "News",},{id: "news-1-paper-accepted-in-neurips-2025-datasets-and-benchmarks-track-congrats-to-deepan-link",
+          title: '1 paper accepted in NeurIPS 2025 (Datasets and Benchmarks Track), congrats to Deepan!...',
+          description: "",
           section: "News",},{id: "news-3-papers-accepted-in-iccv-25-congrats-to-raiyaan-shehreen-and-priyank-link-link-link",
           title: '3 papers accepted in ICCV’25, congrats to Raiyaan, Shehreen, and Priyank! [Link] [Link]...',
           description: "",
@@ -555,86 +558,46 @@ ninja.data = [{
           section: "News",},{id: "news-4-papers-accepted-in-eccv-26-congrats-to-raiyaan-rajat-priyank-and-shresth-link-link-link-link",
           title: '4 papers accepted in ECCV’26, congrats to Raiyaan, Rajat, Priyank and Shresth! [Link]...',
           description: "",
-          section: "News",},{id: "projects-long-amp-streaming-video-understanding",
-          title: 'Long &amp;amp; Streaming Video Understanding',
+          section: "News",},{id: "projects-long-video-understanding",
+          title: 'Long Video Understanding',
           description: "7 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_long-video-understanding/";
-            },},{id: "projects-human-action-amp-activity-recognition",
-          title: 'Human Action &amp;amp; Activity Recognition',
+            },},{id: "projects-human-actions",
+          title: 'Human Actions',
           description: "35 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_human-action-recognition/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-person-re-identification-amp-biometrics",
-          title: 'Person Re-Identification &amp;amp; Biometrics',
+            },},{id: "projects-person-re-id",
+          title: 'Person Re-ID',
           description: "7 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_person-reid-biometrics/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-vision-language-models-amp-multimodal-reasoning",
-          title: 'Vision-Language Models &amp;amp; Multimodal Reasoning',
+            },},{id: "projects-vision-language-ai",
+          title: 'Vision-Language AI',
           description: "12 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_vision-language-multimodal/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-robustness-amp-trustworthy-ai",
-          title: 'Robustness &amp;amp; Trustworthy AI',
+            },},{id: "projects-robust-ai",
+          title: 'Robust AI',
           description: "7 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_robustness-trustworthy-ai/";
-            },},{id: "projects-3d-vision-amp-geo-spatial-understanding",
-          title: '3D Vision &amp;amp; Geo-Spatial Understanding',
+            },},{id: "projects-3d-vision",
+          title: '3D Vision',
           description: "2 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_3d-geospatial-vision/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-real-world-applications",
-          title: 'Real-World Applications',
+            },},{id: "projects-applications",
+          title: 'Applications',
           description: "9 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_real-world-applications/";
-            },},{id: "projects-early-work-multimedia-amp-social-photography",
-          title: 'Early Work: Multimedia &amp;amp; Social Photography',
+            },},{id: "projects-early-multimedia",
+          title: 'Early Multimedia',
           description: "10 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_early-work-multimedia/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "service-service-1",
           title: 'Service_1',
           description: "",
@@ -770,6 +733,11 @@ ninja.data = [{
           description: "",
           section: "Service",handler: () => {
               window.location.href = "/service/service_33/";
+            },},{id: "service-service-34",
+          title: 'Service_34',
+          description: "",
+          section: "Service",handler: () => {
+              window.location.href = "/service/service_34/";
             },},{id: "service-service-4",
           title: 'Service_4',
           description: "",
