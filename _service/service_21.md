@@ -2,4 +2,4 @@
 order: 21
 ---
 
-PC member, <b>ICCV 2021</b>
+Served as a Program Committee Member for the IEEE/CVF International Conference on Computer Vision (ICCV) in 2021.

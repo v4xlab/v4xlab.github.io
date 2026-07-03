@@ -2,4 +2,4 @@
 order: 2
 ---
 
-Area Chair, <b>ACM MM 2026</b>
+Served as an Area Chair for the ACM International Conference on Multimedia (ACM MM) in 2026.

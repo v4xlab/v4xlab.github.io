@@ -2,4 +2,4 @@
 order: 10
 ---
 
-Area Chair, <b>WACV 2024</b>
+Served as an Area Chair for the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) in 2024.

@@ -2,4 +2,4 @@
 order: 8
 ---
 
-Area Chair, <b>ECCV 2024</b>
+Served as an Area Chair for the European Conference on Computer Vision (ECCV) in 2024.

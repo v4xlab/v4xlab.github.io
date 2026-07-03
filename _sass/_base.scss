@@ -1423,3 +1423,43 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/* Patents page */
+.patents {
+  .patent-list {
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 1.25rem;
+    }
+
+    .patent-title {
+      font-weight: 600;
+    }
+
+    .patent-authors {
+      font-style: normal;
+      opacity: 0.85;
+    }
+
+    .patent-number,
+    .patent-status {
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  }
+}
+
+/* People page team lists */
+.team-list {
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .team-role {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+}

@@ -2,4 +2,4 @@
 order: 26
 ---
 
-I will serve as a PC member for <b>AAAI 2021</b>
+Served as a Program Committee Member for the AAAI Conference on Artificial Intelligence (AAAI) in 2021.

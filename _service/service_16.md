@@ -2,4 +2,4 @@
 order: 16
 ---
 
-PC member, <b>ICLR</b> [2021, 2022]
+Served as a Program Committee Member for the International Conference on Learning Representations (ICLR) in 2021 and 2022.

@@ -2,4 +2,4 @@
 order: 17
 ---
 
-Associate Editor for <b>MVAP</b> [Jan 2020&ndash;]
+Serving as an Associate Editor for the journal Machine Vision and Applications (MVAP) since January 2020.

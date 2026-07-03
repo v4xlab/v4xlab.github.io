@@ -83,3 +83,34 @@
 
 "Vision":
   color: "#009f36"
+
+"CVPRW":
+  url: https://cvpr.thecvf.com/
+  color: "#4285F4"
+
+"CBMI":
+  url: https://www.cbmi2024.org/
+  color: "#95A5A6"
+
+"ICIP":
+  url: https://2026.ieeeicip.org/
+  color: "#95A5A6"
+
+"BMVC":
+  url: https://bmvc2024.org/
+  color: "#E67E22"
+
+"MMAsia":
+  url: https://www.mmasia2025.org/
+  color: "#2980B9"
+
+"BigMM":
+  url: https://www.bigmm.org/
+  color: "#7F8C8D"
+
+"EAAI":
+  url: https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence
+  color: "#7F8C8D"
+
+"Book Chapter":
+  color: "#7F8C8D"

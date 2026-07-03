@@ -2,4 +2,4 @@
 order: 4
 ---
 
-Area Chair, <b>CVPR 2026</b>
+Served as an Area Chair for the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) in 2026.

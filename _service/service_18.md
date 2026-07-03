@@ -2,4 +2,4 @@
 order: 18
 ---
 
-Served in NSF review panel 2021
+Served as a panelist on a National Science Foundation (NSF) review panel in 2021.

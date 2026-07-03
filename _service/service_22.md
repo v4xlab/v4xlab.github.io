@@ -2,4 +2,4 @@
 order: 22
 ---
 
-I will serve as a PC member for <b>WACV 2022</b>
+Served as a Program Committee Member for the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) in 2022.

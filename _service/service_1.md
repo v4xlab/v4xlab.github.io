@@ -2,4 +2,4 @@
 order: 1
 ---
 
-Area Chair, <b>NeurIPS 2026</b>
+Served as an Area Chair for the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS) in 2026.

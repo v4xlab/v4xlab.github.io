@@ -2,4 +2,4 @@
 order: 11
 ---
 
-Senior PC Member, <b>AAAI'23</b>
+Served as a Senior Program Committee Member for the AAAI Conference on Artificial Intelligence (AAAI) in 2023.

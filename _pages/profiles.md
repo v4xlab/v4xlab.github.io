@@ -2,27 +2,20 @@
 layout: profiles
 permalink: /people/
 title: People
-description: members of the lab or group
+description: Members of the Vision4X research group at CRCV, University of Central Florida.
 nav: true
-nav_order: 7
+nav_order: 8
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image: rawat_pic.jpg
+    content: rawat_bio.md
+    image_circular: false
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Associate Professor</p>
+      <p>Office: HEC 241</p>
+      <p>Center for Research in Computer Vision</p>
+      <p>University of Central Florida</p>
+      <p>4328 Scorpius St.</p>
+      <p>Orlando, FL 32816-2365</p>
 ---

@@ -1,0 +1,24 @@
+- name: Ayush Rana
+  role: PhD Student
+  now: "Qualcomm"
+- name: Madeline Schiappa
+  role: PhD Student
+  now: "Arctic Wolf"
+- name: Rahul Ambati
+  role: Master Student
+  now: "Amazon"
+- name: Xianhang Li
+  role: Research Assistant
+  now: "PhD student at UC Santa Cruz"
+- name: Alex Matasa
+  role: Master Student
+  now: "Machine Learning Engineer II at Vadum Inc."
+- name: Arushi Rai
+  role: REU Student
+  now: "PhD student at University of Pittsburgh"
+- name: Kara Schatz
+  role: REU Student
+  now: "PhD Student at North Carolina State University"
+- name: Erik Quintanilla
+  role: REU Student
+  now: "Software Engineer at Amazon"

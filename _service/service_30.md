@@ -2,4 +2,4 @@
 order: 30
 ---
 
-I will serve as a PC member for <b>ICME 2020</b>
+Served as a Program Committee Member for the IEEE International Conference on Multimedia and Expo (ICME) in 2020.

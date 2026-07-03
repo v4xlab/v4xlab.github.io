@@ -2,4 +2,4 @@
 order: 15
 ---
 
-Program chair, Workshop in <b>IEEE BigMM 2021</b>
+Served as the Program Chair for a workshop at the IEEE International Conference on Multimedia Big Data (IEEE BigMM) in 2021.

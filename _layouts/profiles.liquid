@@ -32,5 +32,46 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    {% if site.data.phd_students %}
+      <hr>
+      <h2>PhD Students</h2>
+      <ul class="team-list">
+        {% for student in site.data.phd_students %}
+          <li>{{ student.name }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if site.data.current_students %}
+      <hr>
+      <h2>Students</h2>
+      <ul class="team-list">
+        {% for student in site.data.current_students %}
+          <li>
+            {{ student.name -}}
+            {%- if student.role %}
+              <span class="team-role">[{{ student.role }}]</span>
+            {%- endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if site.data.former_members %}
+      <hr>
+      <h2>Former Members</h2>
+      <ul class="team-list">
+        {% for member in site.data.former_members %}
+          <li>
+            {{ member.name -}}
+            {%- if member.role %}
+              <span class="team-role">[{{ member.role }}]</span>
+            {%- endif -%}
+            {%- if member.now %}, Now: {{ member.now }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </article>
 </div>

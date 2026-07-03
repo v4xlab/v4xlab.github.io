@@ -1,0 +1,22 @@
+<div class="patents">
+  {% if site.data.patents %}
+    <ol class="patent-list">
+      {% for patent in site.data.patents %}
+        <li>
+          <div class="patent-title">{{ patent.title }}</div>
+          <div class="patent-authors">{{ patent.authors }}</div>
+          {% if patent.number %}
+            <div class="patent-number">{{ patent.number }}</div>
+          {% endif %}
+          {% if patent.status %}
+            <div class="patent-status">
+              <em>{{ patent.status }}</em>
+            </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p>No patents listed so far...</p>
+  {% endif %}
+</div>

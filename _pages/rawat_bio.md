@@ -1,0 +1,5 @@
+Dr. Yogesh S. Rawat is an Associate Professor at the Center for Research in Computer Vision at the University of Central Florida. His current research interests lie in the intersection of Computer Vision, Deep Learning, and Multimedia Computing. He received his PhD in computer science at the School of Computing, National University of Singapore (2012&ndash;2017), and did his postdoctoral training in the Center for Research in Computer Vision at UCF from 2017&ndash;2019. He obtained his BTech degree in Computer Science and Engineering from the Indian Institute of Technology, IIT-BHU, Varanasi in 2009. He received the Research Achievement Award for his outstanding research performance at NUS in 2016. He was a finalist at the ACM Multimedia Grand Challenge in 2014 and 2016. His team was winner of the ActEV Challenge in ActivityNet CVPR 2020 and runners-up in the ActEV Challenge for Activity Detection in ActEV Challenge (IARPA DIVA) in TRECVID 2018 and 2019.
+
+### Hobbies
+
+**Table Tennis** &mdash; I have been playing table tennis since my childhood, when coach Jyoti Shah trained me for state and national level competitions.

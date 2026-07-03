@@ -2,4 +2,4 @@
 order: 20
 ---
 
-PC member, <b>NeurIPS</b> [2020, 2021]
+Served as a Program Committee Member for the Conference on Neural Information Processing Systems (NeurIPS) in 2020 and 2021.

@@ -2,4 +2,4 @@
 order: 14
 ---
 
-Local arrangement chair, <b>IEEE BigData 2021</b>
+Served as the Local Arrangements Chair for the IEEE International Conference on Big Data (IEEE BigData) in 2021.

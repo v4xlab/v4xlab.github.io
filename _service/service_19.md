@@ -2,4 +2,4 @@
 order: 19
 ---
 
-Area Chair, <b>ACM-MM</b> [2020, 2021]
+Served as an Area Chair for the ACM International Conference on Multimedia (ACM MM) in 2020 and 2021.

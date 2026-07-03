@@ -2,4 +2,4 @@
 order: 7
 ---
 
-Served in NSF review panel 2025
+Served as a panelist on a National Science Foundation (NSF) review panel in 2025.

@@ -2,4 +2,4 @@
 order: 12
 ---
 
-Associate Editor, <b>IEEE TCSVT</b> [Jan 2022&ndash;]
+Serving as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) since January 2022.

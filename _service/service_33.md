@@ -2,4 +2,4 @@
 order: 33
 ---
 
-I will serve as a PC member for <b>ACM MM 2019</b>
+Served as a Program Committee Member for the ACM International Conference on Multimedia (ACM MM) in 2019.
