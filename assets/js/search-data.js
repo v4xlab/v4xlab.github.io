@@ -559,12 +559,10 @@ ninja.data = [{
           section: "News",},{id: "news-3-papers-accepted-in-cvpr-26-congrats-to-shehreen-zen-sirs-rajat-grace-link-link-link",
           title: '3 papers accepted in CVPR’26, congrats to Shehreen, Zen, Sirs, Rajat, Grace! [Link]...',
           description: "",
-          section: "News",},{id: "news-announcement-46",
-          title: 'Announcement_46',
+          section: "News",},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-for-the-support",
+          title: 'Two NAIRR Pilot projects approved: “Benchmarking Vision-Language Models for Dynamic Visual Planning in...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_46/";
-            },},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
+          section: "News",},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
           title: 'Recognized as an Outstanding Area Chair at CVPR 2026.',
           description: "",
           section: "News",},{id: "news-4-papers-accepted-in-eccv-26-congrats-to-raiyaan-rajat-priyank-and-shresth-link-link-link-link",
