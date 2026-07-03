@@ -560,11 +560,6 @@ ninja.data = [{
           description: "7 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_long-video-understanding/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
             },},{id: "projects-human-action-amp-activity-recognition",
           title: 'Human Action &amp;amp; Activity Recognition',
           description: "35 papers",
