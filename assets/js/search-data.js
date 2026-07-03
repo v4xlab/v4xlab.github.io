@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Some of our recent and ongoing projects.",
+          description: "Our research organized by theme &amp;mdash; explore each area to see the papers behind it.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -555,16 +555,31 @@ ninja.data = [{
           section: "News",},{id: "news-4-papers-accepted-in-eccv-26-congrats-to-raiyaan-rajat-priyank-and-shresth-link-link-link-link",
           title: '4 papers accepted in ECCV’26, congrats to Raiyaan, Rajat, Priyank and Shresth! [Link]...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-long-amp-streaming-video-understanding",
+          title: 'Long &amp;amp; Streaming Video Understanding',
+          description: "7 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_long-video-understanding/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-human-action-amp-activity-recognition",
+          title: 'Human Action &amp;amp; Activity Recognition',
+          description: "35 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_human-action-recognition/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-person-re-identification-amp-biometrics",
+          title: 'Person Re-Identification &amp;amp; Biometrics',
+          description: "7 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_person-reid-biometrics/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -575,11 +590,26 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-vision-language-models-amp-multimodal-reasoning",
+          title: 'Vision-Language Models &amp;amp; Multimodal Reasoning',
+          description: "12 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_vision-language-multimodal/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-robustness-amp-trustworthy-ai",
+          title: 'Robustness &amp;amp; Trustworthy AI',
+          description: "7 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_robustness-trustworthy-ai/";
+            },},{id: "projects-3d-vision-amp-geo-spatial-understanding",
+          title: '3D Vision &amp;amp; Geo-Spatial Understanding',
+          description: "2 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_3d-geospatial-vision/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
@@ -590,6 +620,16 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
+            },},{id: "projects-real-world-applications",
+          title: 'Real-World Applications',
+          description: "9 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_real-world-applications/";
+            },},{id: "projects-early-work-multimedia-amp-social-photography",
+          title: 'Early Work: Multimedia &amp;amp; Social Photography',
+          description: "10 papers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_early-work-multimedia/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
