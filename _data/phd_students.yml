@@ -1,39 +1,41 @@
 - name: Shehreen Azad
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Shehreen_Azad.jpeg
   years: "2023&ndash;present"
-  blurb: Works on long-form video understanding and activity-based biometrics, with recent work on hierarchical video-language models and streaming video understanding.
+  blurb: Works on long-form and streaming video understanding, with a focus on building models that can reason over hours of video efficiently. Her work spans hierarchical video-language models (HierarQ), timing-aware streaming video understanding (StreamReady), and activity-based biometrics that identify people from how they move rather than what they look like (DisenQ). She has also explored how well vision-language models understand geometric concepts like depth and height.
 
 - name: Priyank Pathak
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Priyank_Pathak.jpg
   website: https://ppriyank.github.io/
   years: "2023&ndash;present"
-  blurb: Focuses on clothes-changing person re-identification and the robustness of foundation models to low-resolution and noisy inputs.
+  blurb: Focuses on clothes-changing person re-identification and the robustness of foundation models. His work on color disentanglement (Colors See Colors Ignore) tackles how to recognize people even when appearance and clothing change, while his benchmark LR0.FM studies how zero-shot foundation models degrade under low-resolution inputs. His most recent work, Robust Onion, examines how open-vocabulary object detectors hold up under real-world noise.
 
 - name: Rajat Modi
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Rajat_Modi-1.jpeg
   years: "2021&ndash;present"
-  blurb: Researches efficient test-time learning and robustness to occlusion in video action detection, most recently extending test-time training to long videos.
+  blurb: Researches efficient, label-efficient video understanding, with a particular interest in how models can adapt at test time without expensive retraining. His Asynchronous Perception Machine (APM) explored a novel architecture bridging interpolation and perception for efficient test-time training, and his benchmark work has characterized how occlusion limits video action detection. His current work, Forget-Anticipate-Adapt, extends test-time training to long videos &mdash; teaching models to selectively forget stale context as new evidence arrives.
 
 - name: Raiyaan Abdullah
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Raiyaan_Abdullah.jpg
   website: https://raiyaan.xyz/
   years: "2023&ndash;present"
-  blurb: Studies motion transferability and safety in video-language models, including action denial and industrial safety benchmarking.
+  blurb: Studies motion understanding and safety in multimodal video-language models. His work on motion transferability (Punching Bag vs. Punching Person) probes whether models generalize motion concepts across very different visual contexts, while Learning to Deny examines how multimodal LLMs handle refusing to act on unsafe or implausible instructions. He also built iSafetyBench, a video-language benchmark for recognizing routine and hazardous activity in industrial settings.
 
 - name: Xin Liang
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Xing_Liang.jpeg
   years: "2024&ndash;present"
-  blurb: Works on clothes-changing person re-identification, disentangling identity from appearance-changing cues.
+  blurb: Works on clothes-changing person re-identification, with his paper DIFFER proposing a way to disentangle a person's identity from semantic cues like clothing and pose so that recognition holds up even as appearance changes across cameras and time.
 
 - name: Grace Lim
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Grace_Lim.jpg
   years: "2024&ndash;present"
-  blurb: Explores generative motion-to-sketch synthesis and 3D site modeling from imagery captured at varying altitudes.
+  blurb: Explores generative modeling for both sketch synthesis and 3D scene understanding. Her work on AirSketch introduced a marker-less way to generate sketches directly from hand motion, and she now works on Sky2Ground, building 3D site models from imagery captured across a wide range of altitudes and viewpoints.
 
 - name: Sirshapan Mitra
   photo: https://www.crcv.ucf.edu/wp-content/uploads/2018/10/Sirshapan_Mitra.jpg
   years: "2024&ndash;present"
-  blurb: Works on semi-supervised video action detection and diffusion-based 3D reconstruction and gait synthesis.
+  blurb: Works across semi-supervised video action detection and diffusion-based generative modeling. His Stable Mean Teacher improves semi-supervised video action detection under limited labels, GaitCrafter uses video diffusion to synthesize privacy-preserving gait sequences for biometric research, and ProDiG applies diffusion-guided Gaussian splatting to reconstruct ground-level 3D scenes from aerial imagery.
 
 - name: Nathan Couch
+  photo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0A9kTN5YPl0WzNku5691BnAK5kxcprJYW1DOIoJ5xeg&s=10
   years: "2026&ndash;present"
+  blurb: The newest member of the group, joining in 2026 after an independent study with us in 2025. He is working on reasoning in video agents.

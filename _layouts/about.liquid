@@ -64,7 +64,7 @@ layout: default
     {% if page.announcements and page.announcements.enabled %}
       <div class="section-heading-row">
         <h2>Recent News</h2>
-        <a class="view-all-link" href="{{ '/news/' | relative_url }}">All News &rarr;</a>
+        <a class="view-all-link" href="{{ '/news/' | relative_url }}">All News</a>
       </div>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -73,7 +73,7 @@ layout: default
     {% if page.selected_papers %}
       <div class="section-heading-row">
         <h2>Recent Publications</h2>
-        <a class="view-all-link" href="{{ '/publications/' | relative_url }}">All Publications &rarr;</a>
+        <a class="view-all-link" href="{{ '/publications/' | relative_url }}">All Publications</a>
       </div>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -82,7 +82,7 @@ layout: default
     {% if page.service and page.service.enabled %}
       <div class="section-heading-row">
         <h2>Service</h2>
-        <a class="view-all-link" href="{{ '/service/' | relative_url }}">All Service &rarr;</a>
+        <a class="view-all-link" href="{{ '/service/' | relative_url }}">All Service</a>
       </div>
       {% include service.liquid limit=true %}
     {% endif %}

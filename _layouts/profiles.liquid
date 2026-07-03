@@ -36,46 +36,84 @@ layout: page
     {% if site.data.phd_students %}
       <hr>
       <h2>PhD Students</h2>
-      <div class="team-grid">
+      <div class="team-rows">
         {% for student in site.data.phd_students %}
-          <div class="team-card">
+          <div class="team-row">
             {% if student.photo %}
               <img
-                class="team-photo"
+                class="team-row-photo"
                 src="{{ student.photo }}"
                 alt="{{ student.name }}"
-                width="160"
-                height="160"
+                width="150"
+                height="150"
                 loading="lazy"
               >
             {% endif %}
-            <div class="team-name">
-              {% if student.website %}
-                <a href="{{ student.website }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
-              {% else %}
-                {{ student.name }}
+            <div class="team-row-content">
+              <div class="team-row-name">
+                {% if student.website %}
+                  <a href="{{ student.website }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+                {% else %}
+                  {{ student.name }}
+                {% endif %}
+              </div>
+              <div class="team-row-years">
+                PhD Student{% if student.years %}, {{ student.years }}{% endif %}
+              </div>
+              {% if student.blurb %}
+                <div class="team-row-blurb">{{ student.blurb }}</div>
               {% endif %}
             </div>
-            <div class="team-years">
-              PhD Student{% if student.years %}, {{ student.years }}{% endif %}
-            </div>
-            {% if student.blurb %}
-              <div class="team-blurb">{{ student.blurb }}</div>
-            {% endif %}
           </div>
         {% endfor %}
       </div>
     {% endif %}
 
-    {% if site.data.current_students %}
+    {% if site.data.ms_students %}
       <hr>
-      <h2>Students</h2>
+      <h2>Master's Students</h2>
       <ul class="team-list">
-        {% for student in site.data.current_students %}
+        {% for student in site.data.ms_students %}
           <li>
             {{ student.name -}}
-            {%- if student.role %}
-              <span class="team-role">[{{ student.role }}]</span>
+            {%- if student.years %}
+              <span class="team-role">({{ student.years }})</span>
+            {%- endif -%}
+            {%- if student.note %}
+              &mdash; {{ student.note }}
+            {%- endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if site.data.ug_students %}
+      <hr>
+      <h2>Undergraduate Students</h2>
+      <ul class="team-list">
+        {% for student in site.data.ug_students %}
+          <li>
+            {{ student.name -}}
+            {%- if student.years %}
+              <span class="team-role">({{ student.years }})</span>
+            {%- endif -%}
+            {%- if student.note %}
+              &mdash; {{ student.note }}
+            {%- endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if site.data.external_collaborators %}
+      <hr>
+      <h2>External Collaborators &amp; Interns</h2>
+      <ul class="team-list">
+        {% for person in site.data.external_collaborators %}
+          <li>
+            {{ person.name -}}
+            {%- if person.affiliation %}
+              <span class="team-role">({{ person.affiliation }})</span>
             {%- endif %}
           </li>
         {% endfor %}
