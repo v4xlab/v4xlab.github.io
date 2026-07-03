@@ -1463,3 +1463,11 @@ figure.cover {
     font-size: 0.9rem;
   }
 }
+
+/* Venue abbr badge, now shown inline with the publication link buttons */
+.publications .links abbr.badge {
+  vertical-align: middle;
+  margin-right: 0.4rem;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.6rem;
+}
