@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-3 papers accepted in <b>CVPR'26</b>, congrats to Shehreen, Zen, Sirs, Rajat, Grace!
+3 papers accepted in <b>CVPR'26</b>, congrats to Shehreen, Zen, Sirs, Rajat, Grace! <a href="https://arxiv.org/abs/2603.08620">[Link]</a> <a href="https://arxiv.org/abs/2603.13740">[Link]</a> <a href="https://arxiv.org/abs/2604.02003">[Link]</a>
