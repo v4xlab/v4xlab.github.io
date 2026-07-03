@@ -40,6 +40,26 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Stats banner -->
+    <div class="stats-banner">
+      <div class="stat-item">
+        <div class="stat-number">89+</div>
+        <div class="stat-label">Publications</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.phd_students.size }}</div>
+        <div class="stat-label">PhD Students</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.patents.size }}</div>
+        <div class="stat-label">Patents</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.repositories.github_repos.size }}</div>
+        <div class="stat-label">Code Repositories</div>
+      </div>
+    </div>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <div class="section-heading-row">

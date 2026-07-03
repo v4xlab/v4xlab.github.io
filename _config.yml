@@ -9,12 +9,14 @@ last_name: Rawat
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A website for our Vision4X group.
+  Yogesh S. Rawat's research group at the Center for Research in Computer Vision, University of
+  Central Florida. Research in video understanding, human action recognition, biometrics, and
+  robust, label-efficient computer vision.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: AI, Computer Vision, ML, Applications, Security, Safety # add your own keywords or leave empty
+keywords: Computer Vision, Video Understanding, Human Action Recognition, Biometrics, Deep Learning, Vision-Language Models, Robustness, Label-Efficient Learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: rawat_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -61,9 +63,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: rawat_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
