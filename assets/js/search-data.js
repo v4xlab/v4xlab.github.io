@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-patents",
+          title: "Patents",
+          description: "Patents and pending patent applications from our research group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/patents/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Some of our recent and ongoing projects.",
@@ -32,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Courses taught at the Center for Research in Computer Vision, University of Central Florida.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "People",
-          description: "members of the lab or group",
+          description: "Members of the Vision4X research group at CRCV, University of Central Florida.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -541,6 +548,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-3-papers-accepted-in-cvpr-26-congrats-to-shehreen-zen-sirs-rajat-grace-link-link-link",
           title: '3 papers accepted in CVPR’26, congrats to Shehreen, Zen, Sirs, Rajat, Grace! [Link]...',
+          description: "",
+          section: "News",},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
+          title: 'Recognized as an Outstanding Area Chair at CVPR 2026.',
           description: "",
           section: "News",},{id: "news-4-papers-accepted-in-eccv-26-congrats-to-raiyaan-rajat-priyank-and-shresth-link-link-link-link",
           title: '4 papers accepted in ECCV’26, congrats to Raiyaan, Rajat, Priyank and Shresth! [Link]...',
