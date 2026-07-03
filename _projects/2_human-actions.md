@@ -2,7 +2,7 @@
 layout: page
 title: Human Actions
 description: Recognizing, localizing, and detecting human actions in video, from fully-supervised to weakly- and semi-supervised settings.
-img: assets/img/3.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/Punching-bag-vs-Punching-Person-1.gif
 importance: 2
 category: research
 related_publications: true

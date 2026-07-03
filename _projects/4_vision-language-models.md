@@ -2,7 +2,7 @@
 layout: page
 title: Vision-Language Models
 description: Probing, grounding, and extending vision-language models for spatial, temporal, and safety-aware reasoning.
-img: assets/img/7.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/cospal_compiled-ezgif.com-video-to-gif-converter.gif
 importance: 4
 category: research
 related_publications: true

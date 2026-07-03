@@ -2,7 +2,7 @@
 layout: page
 title: Long Video Understanding
 description: "Streaming and long-form video: efficient memory, hierarchical representations, and knowing what to answer and when."
-img: assets/img/1.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/Presentation1-newonline-video-cutter.com-21-ezgif.com-optimize.gif
 importance: 1
 category: research
 related_publications: true

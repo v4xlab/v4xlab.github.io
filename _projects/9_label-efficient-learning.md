@@ -2,7 +2,7 @@
 layout: page
 title: Label-Efficient Learning
 description: Getting strong performance from limited annotations, through semi-supervised, weakly-supervised, and active learning.
-img: assets/img/5.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/combined_gif.gif
 importance: 9
 category: research
 related_publications: true

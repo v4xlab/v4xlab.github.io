@@ -2,7 +2,7 @@
 layout: page
 title: 3D Vision
 description: Reconstructing and understanding 3D scenes from imagery captured at varying altitudes and viewpoints.
-img: assets/img/10.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/skyNet.png
 importance: 7
 category: research
 related_publications: true

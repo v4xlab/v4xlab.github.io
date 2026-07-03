@@ -2,7 +2,7 @@
 layout: page
 title: Biometrics
 description: Identifying people from video, including clothes-changing re-identification, gait, and activity-based biometrics.
-img: assets/img/9.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/csci-x.gif
 importance: 6
 category: research
 related_publications: true

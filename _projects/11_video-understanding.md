@@ -2,7 +2,7 @@
 layout: page
 title: Video Understanding
 description: Foundational video representation learning, cross-view and novel-view synthesis, and video segmentation.
-img: assets/img/2.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/larnet.gif
 importance: 11
 category: research
 related_publications: true

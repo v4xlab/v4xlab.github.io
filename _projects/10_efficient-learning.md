@@ -2,7 +2,7 @@
 layout: page
 title: Efficient Learning
 description: Reducing the compute and data cost of vision models, from test-time training to low-resolution robustness.
-img: assets/img/6.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/output.gif
 importance: 10
 category: research
 related_publications: true

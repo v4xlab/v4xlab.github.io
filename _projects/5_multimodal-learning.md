@@ -2,7 +2,7 @@
 layout: page
 title: Multimodal Learning
 description: Combining vision with other modalities, from generative sketch synthesis to molecular property prediction.
-img: assets/img/8.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/airsketchdemoextended-ezgif.com-video-to-gif-converter.gif
 importance: 5
 category: research
 related_publications: true
