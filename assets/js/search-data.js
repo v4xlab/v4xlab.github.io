@@ -559,15 +559,30 @@ ninja.data = [{
           section: "News",},{id: "news-3-papers-accepted-in-cvpr-26-congrats-to-shehreen-zen-sirs-rajat-grace-link-link-link",
           title: '3 papers accepted in CVPR’26, congrats to Shehreen, Zen, Sirs, Rajat, Grace! [Link]...',
           description: "",
-          section: "News",},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
+          section: "News",},{id: "news-announcement-46",
+          title: 'Announcement_46',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_46/";
+            },},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
           title: 'Recognized as an Outstanding Area Chair at CVPR 2026.',
           description: "",
           section: "News",},{id: "news-4-papers-accepted-in-eccv-26-congrats-to-raiyaan-rajat-priyank-and-shresth-link-link-link-link",
           title: '4 papers accepted in ECCV’26, congrats to Raiyaan, Rajat, Priyank and Shresth! [Link]...',
           description: "",
-          section: "News",},{id: "projects-long-video-understanding",
+          section: "News",},{id: "projects-efficient-learning",
+          title: 'Efficient Learning',
+          description: "Reducing the compute and data cost of vision models, from test-time training to low-resolution robustness.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_efficient-learning/";
+            },},{id: "projects-video-understanding",
+          title: 'Video Understanding',
+          description: "Foundational video representation learning, cross-view and novel-view synthesis, and video segmentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_video-understanding/";
+            },},{id: "projects-long-video-understanding",
           title: 'Long Video Understanding',
-          description: "7 papers",
+          description: "Streaming and long-form video: efficient memory, hierarchical representations, and knowing what to answer and when.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_long-video-understanding/";
             },},{id: "projects-human-actions",
@@ -575,16 +590,36 @@ ninja.data = [{
           description: "35 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_human-action-recognition/";
+            },},{id: "projects-human-actions",
+          title: 'Human Actions',
+          description: "Recognizing, localizing, and detecting human actions in video, from fully-supervised to weakly- and semi-supervised settings.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_human-actions/";
             },},{id: "projects-person-re-id",
           title: 'Person Re-ID',
           description: "7 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_person-reid-biometrics/";
+            },},{id: "projects-robustness",
+          title: 'Robustness',
+          description: "Making vision and vision-language models robust to noise, occlusion, adversarial attacks, and distribution shift.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_robustness/";
+            },},{id: "projects-vision-language-models",
+          title: 'Vision-Language Models',
+          description: "Probing, grounding, and extending vision-language models for spatial, temporal, and safety-aware reasoning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_vision-language-models/";
             },},{id: "projects-vision-language-ai",
           title: 'Vision-Language AI',
           description: "12 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_vision-language-multimodal/";
+            },},{id: "projects-multimodal-learning",
+          title: 'Multimodal Learning',
+          description: "Combining vision with other modalities, from generative sketch synthesis to molecular property prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_multimodal-learning/";
             },},{id: "projects-robust-ai",
           title: 'Robust AI',
           description: "7 papers",
@@ -595,16 +630,36 @@ ninja.data = [{
           description: "2 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_3d-geospatial-vision/";
+            },},{id: "projects-biometrics",
+          title: 'Biometrics',
+          description: "Identifying people from video, including clothes-changing re-identification, gait, and activity-based biometrics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_biometrics/";
+            },},{id: "projects-3d-vision",
+          title: '3D Vision',
+          description: "Reconstructing and understanding 3D scenes from imagery captured at varying altitudes and viewpoints.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_3d-vision/";
             },},{id: "projects-applications",
           title: 'Applications',
           description: "9 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_real-world-applications/";
+            },},{id: "projects-applications",
+          title: 'Applications',
+          description: "Taking vision and multimodal learning into practice, from healthcare and industry to early work in social photography.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_applications/";
             },},{id: "projects-early-multimedia",
           title: 'Early Multimedia',
           description: "10 papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_early-work-multimedia/";
+            },},{id: "projects-label-efficient-learning",
+          title: 'Label-Efficient Learning',
+          description: "Getting strong performance from limited annotations, through semi-supervised, weakly-supervised, and active learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_label-efficient-learning/";
             },},{id: "service-service-1",
           title: 'Service_1',
           description: "",
@@ -745,6 +800,16 @@ ninja.data = [{
           description: "",
           section: "Service",handler: () => {
               window.location.href = "/service/service_34/";
+            },},{id: "service-service-35",
+          title: 'Service_35',
+          description: "",
+          section: "Service",handler: () => {
+              window.location.href = "/service/service_35/";
+            },},{id: "service-service-36",
+          title: 'Service_36',
+          description: "",
+          section: "Service",handler: () => {
+              window.location.href = "/service/service_36/";
             },},{id: "service-service-4",
           title: 'Service_4',
           description: "",
