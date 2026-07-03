@@ -18,7 +18,7 @@
   note: "Thesis"
 - name: Reeshoon Sayera
   years: "2024&ndash;2025"
-  note: "Thesis &mdash; Best Thesis Award"
+  note: 'Thesis &mdash; <strong class="highlight-award">Best Thesis Award</strong>'
 - name: Alejandro Fuste
   years: "2025"
   note: "Independent Study"

@@ -1634,3 +1634,8 @@ figure.cover {
     }
   }
 }
+
+/* Highlight for special achievements/awards in team lists */
+.highlight-award {
+  color: var(--global-theme-color);
+}

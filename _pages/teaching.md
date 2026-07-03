@@ -31,7 +31,7 @@ A graduate-level introduction to computer vision, blending classical and deep le
 
 ## CAP4453 &mdash; Robot Vision
 
-An undergraduate course applying computer vision techniques to enable robots to sense, interpret, and act in the physical world &mdash; redesigned to integrate recent deep learning advances.
+The study of machine vision is one of the few areas of science that blends intuition with formal methods &mdash; vision, whether in humans or machines, is fundamentally a computational process. This undergraduate course examines the elementary concepts that let machines deliver the kinds of visual capabilities humans take for granted: scene recognition, motion processing, and navigation. Students work through edge detection, methods for recovering shape from images, object detection, and motion analysis, building up from the basics of linear algebra and image filtering to feature extraction, optical flow, and image segmentation and classification, before applying deep learning to these classical computer vision problems. Along the way, students are also exposed to open problems in these areas whose solutions carry high technological payoff. The workload blends interesting reading, hands-on programming, and tests, and the course is suitable for undergraduates in Computer Science and Engineering, or anyone looking for an introduction to machine vision.
 
 - [Spring 2021](https://www.crcv.ucf.edu/courses/cap4453-spring-2021/)
 
