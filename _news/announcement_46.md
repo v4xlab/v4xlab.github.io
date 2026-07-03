@@ -2,7 +2,7 @@
 layout: post
 date: 2026-06-05 09:00:00-0400
 year: 2026
-inline: false
+inline: yes
 related_posts: false
 ---
 
