@@ -585,19 +585,9 @@ ninja.data = [{
               window.location.href = "/projects/1_long-video-understanding/";
             },},{id: "projects-human-actions",
           title: 'Human Actions',
-          description: "35 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_human-action-recognition/";
-            },},{id: "projects-human-actions",
-          title: 'Human Actions',
           description: "Recognizing, localizing, and detecting human actions in video, from fully-supervised to weakly- and semi-supervised settings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_human-actions/";
-            },},{id: "projects-person-re-id",
-          title: 'Person Re-ID',
-          description: "7 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_person-reid-biometrics/";
             },},{id: "projects-robustness",
           title: 'Robustness',
           description: "Making vision and vision-language models robust to noise, occlusion, adversarial attacks, and distribution shift.",
@@ -608,26 +598,11 @@ ninja.data = [{
           description: "Probing, grounding, and extending vision-language models for spatial, temporal, and safety-aware reasoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_vision-language-models/";
-            },},{id: "projects-vision-language-ai",
-          title: 'Vision-Language AI',
-          description: "12 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_vision-language-multimodal/";
             },},{id: "projects-multimodal-learning",
           title: 'Multimodal Learning',
           description: "Combining vision with other modalities, from generative sketch synthesis to molecular property prediction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_multimodal-learning/";
-            },},{id: "projects-robust-ai",
-          title: 'Robust AI',
-          description: "7 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_robustness-trustworthy-ai/";
-            },},{id: "projects-3d-vision",
-          title: '3D Vision',
-          description: "2 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_3d-geospatial-vision/";
             },},{id: "projects-biometrics",
           title: 'Biometrics',
           description: "Identifying people from video, including clothes-changing re-identification, gait, and activity-based biometrics.",
@@ -648,11 +623,6 @@ ninja.data = [{
           description: "Taking vision and multimodal learning into practice, from healthcare and industry to early work in social photography.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_applications/";
-            },},{id: "projects-early-multimedia",
-          title: 'Early Multimedia',
-          description: "10 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_early-work-multimedia/";
             },},{id: "projects-label-efficient-learning",
           title: 'Label-Efficient Learning',
           description: "Getting strong performance from limited annotations, through semi-supervised, weakly-supervised, and active learning.",
