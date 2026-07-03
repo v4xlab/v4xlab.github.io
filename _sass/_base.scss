@@ -1488,6 +1488,11 @@ figure.cover {
   margin-right: 0.4rem;
   font-size: 0.85rem;
   padding: 0.35rem 0.6rem;
+  color: #000 !important;
+
+  a {
+    color: #000 !important;
+  }
 }
 
 /* Teaching page video-available tag */

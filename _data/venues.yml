@@ -1,116 +1,116 @@
 "CVPR":
   url: https://cvpr.thecvf.com/
-  color: "#4285F4"
+  color: "#CFE2F3"
 
 "ICCV":
   url: https://iccv.thecvf.com/
-  color: "#EA4335"
+  color: "#F4CCCC"
 
 "ECCV":
   url: https://eccv.ecva.net/
-  color: "#FBBC05"
+  color: "#FFF2CC"
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#34A853"
+  color: "#D9EAD3"
 
 "NeurIPS":
   url: https://neurips.cc/
-  color: "#8E44AD"
+  color: "#E3D6F0"
 
 "AAAI":
   url: https://aaai.org/
-  color: "#16A085"
+  color: "#D0EDE7"
 
 "WACV":
   url: https://wacv.thecvf.com/
-  color: "#E67E22"
+  color: "#FCE2CE"
 
 "TMLR":
   url: https://jmlr.org/tmlr/
-  color: "#2C3E50"
+  color: "#DCE3E8"
 
 "EMNLP":
   url: https://2024.emnlp.org/
-  color: "#C0392B"
+  color: "#F2D6CE"
 
 "ACM MM":
   url: https://www.acmmm.org/
-  color: "#2980B9"
+  color: "#D2E4EF"
 
 "NeurIPS Findings":
   url: https://neurips.cc/
-  color: "#8E44AD"
+  color: "#E3D6F0"
 
 "CVPR Findings":
   url: https://cvpr.thecvf.com/
-  color: "#4285F4"
+  color: "#CFE2F3"
 
 "TOMM":
   url: https://dl.acm.org/journal/tomm
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "TCSVT":
   url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-circuits-and-systems-video-technology
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "TMM":
   url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "ICFHR":
   url: https://icfhr2024.org/
-  color: "#95A5A6"
+  color: "#EAEDED"
 
 "ICPR":
   url: https://www.icpr2024.fr/
-  color: "#95A5A6"
+  color: "#EAEDED"
 
 "CSUR":
   url: https://dl.acm.org/journal/csur
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "arXiv":
   url: https://arxiv.org/
-  color: "#B31B1B"
+  color: "#F3D9D4"
 
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: "#CFE2F3"
 
 "PhysRev":
   url: https://journals.aps.org/
 
 "Vision":
-  color: "#009f36"
+  color: "#D9EAD3"
 
 "CVPRW":
   url: https://cvpr.thecvf.com/
-  color: "#4285F4"
+  color: "#CFE2F3"
 
 "CBMI":
   url: https://www.cbmi2024.org/
-  color: "#95A5A6"
+  color: "#EAEDED"
 
 "ICIP":
   url: https://2026.ieeeicip.org/
-  color: "#95A5A6"
+  color: "#EAEDED"
 
 "BMVC":
   url: https://bmvc2024.org/
-  color: "#E67E22"
+  color: "#FCE2CE"
 
 "MMAsia":
   url: https://www.mmasia2025.org/
-  color: "#2980B9"
+  color: "#D2E4EF"
 
 "BigMM":
   url: https://www.bigmm.org/
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "EAAI":
   url: https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence
-  color: "#7F8C8D"
+  color: "#E5E7E9"
 
 "Book Chapter":
-  color: "#7F8C8D"
+  color: "#E5E7E9"
