@@ -526,6 +526,9 @@ ninja.data = [{
           section: "News",},{id: "news-1-paper-accepted-in-aaai-24-congrats-ayush-aayush-akash",
           title: '1 paper accepted in AAAI’24, congrats Ayush, Aayush, Akash!',
           description: "",
+          section: "News",},{id: "news-recognized-as-one-of-the-three-best-associate-editors-for-ieee-tcsvt-2023",
+          title: 'Recognized as one of the three Best Associate Editors for IEEE-TCSVT (2023).',
+          description: "",
           section: "News",},{id: "news-msr-afmr-grant-on-foundation-models-academic-research-initiative",
           title: 'MSR AFMR Grant on Foundation Models Academic Research Initiative',
           description: "",
@@ -559,7 +562,20 @@ ninja.data = [{
           section: "News",},{id: "news-3-papers-accepted-in-cvpr-26-congrats-to-shehreen-zen-sirs-rajat-grace-link-link-link",
           title: '3 papers accepted in CVPR’26, congrats to Shehreen, Zen, Sirs, Rajat, Grace! [Link]...',
           description: "",
-          section: "News",},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-for-the-support",
+          section: "News",},{id: "news-recognized-as-an-outstanding-associate-editor-for-ieee-tcsvt-2025",
+          title: 'Recognized as an Outstanding Associate Editor for IEEE-TCSVT (2025).',
+          description: "",
+          section: "News",},{id: "news-announcement-48",
+          title: 'Announcement_48',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_48/";
+            },},{id: "news-announcement-47",
+          title: 'Announcement_47',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_47/";
+            },},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-for-the-support",
           title: 'Two NAIRR Pilot projects approved: “Benchmarking Vision-Language Models for Dynamic Visual Planning in...',
           description: "",
           section: "News",},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
@@ -613,11 +629,6 @@ ninja.data = [{
           description: "Reconstructing and understanding 3D scenes from imagery captured at varying altitudes and viewpoints.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_3d-vision/";
-            },},{id: "projects-applications",
-          title: 'Applications',
-          description: "9 papers",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_real-world-applications/";
             },},{id: "projects-applications",
           title: 'Applications',
           description: "Taking vision and multimodal learning into practice, from healthcare and industry to early work in social photography.",
@@ -778,6 +789,16 @@ ninja.data = [{
           description: "",
           section: "Service",handler: () => {
               window.location.href = "/service/service_36/";
+            },},{id: "service-service-37",
+          title: 'Service_37',
+          description: "",
+          section: "Service",handler: () => {
+              window.location.href = "/service/service_37/";
+            },},{id: "service-service-38",
+          title: 'Service_38',
+          description: "",
+          section: "Service",handler: () => {
+              window.location.href = "/service/service_38/";
             },},{id: "service-service-4",
           title: 'Service_4',
           description: "",
