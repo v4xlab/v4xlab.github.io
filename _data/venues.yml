@@ -34,6 +34,10 @@
   url: https://2024.emnlp.org/
   color: "#F2D6CE"
 
+"EMNLP Findings":
+  url: https://2024.emnlp.org/
+  color: "#F2D6CE"
+
 "ACM MM":
   url: https://www.acmmm.org/
   color: "#D2E4EF"
@@ -87,6 +91,26 @@
 "CVPRW":
   url: https://cvpr.thecvf.com/
   color: "#CFE2F3"
+
+"ICCVW":
+  url: https://iccv.thecvf.com/
+  color: "#F4CCCC"
+
+"ECCVW":
+  url: https://eccv.ecva.net/
+  color: "#FFF2CC"
+
+"WACVW":
+  url: https://wacv.thecvf.com/
+  color: "#FCE2CE"
+
+"NeurIPSW":
+  url: https://neurips.cc/
+  color: "#E3D6F0"
+
+"ICMLW":
+  url: https://icml.cc/
+  color: "#DDEBDA"
 
 "CBMI":
   url: https://www.cbmi2024.org/
