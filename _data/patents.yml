@@ -1,10 +1,12 @@
 - title: "Motion Transferability in Videos"
   authors: "Raiyaan Abdullah, Jared Claypoole, Michael Cogswell, Ajay Divakaran, and Yogesh Singh Rawat"
   status: "Under review"
+  paper: "https://arxiv.org/abs/2508.00085"
 
 - title: "Readiness-aware Streaming Long Video Understanding with Temporal Decision Modeling"
   authors: "Shehreen Azad and Yogesh Rawat"
   status: "Under process"
+  paper: "https://arxiv.org/abs/2603.08620"
 
 - title: "Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction"
   authors: "Sirshapan Mitra and Yogesh Rawat"
@@ -13,10 +15,12 @@
 - title: "Colors See Colors Ignore: Clothes Changing ReID with Color Disentanglement"
   authors: "Priyank Pathak and Yogesh Rawat"
   status: "Under process"
+  paper: "https://arxiv.org/abs/2507.07230"
 
 - title: "DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID"
   authors: "Xin Liang and Yogesh Rawat"
   status: "Under process"
+  paper: "https://arxiv.org/abs/2503.22912"
 
 - title: "SiA: A Simple Architecture for Open-Vocabulary Action Detection"
   authors: "Zhen Sia and Yogesh Rawat"
@@ -25,11 +29,13 @@
 - title: "Asynchronous Perception Machine"
   authors: "Rajat Modi and Yogesh Rawat"
   status: "Under review"
+  paper: "https://arxiv.org/abs/2410.20535"
 
 - title: "Activity-Biometrics: Person Identification from Daily Activities"
   authors: "Shehreen Azad and Yogesh Singh Rawat"
-  status: "Pending &mdash; granted as US Patent 12,482,255"
+  status: "Granted"
   number: "US Patent App. No. 63/685,014 (2024), UCF Ref. 2024-117-01"
+  patent: "https://patents.google.com/patent/US12482255B2/en"
 
 - title: "Active Sparse Labeling System and Method"
   authors: "Yogesh Singh Rawat and Aayush Jung Bahadur Rana"
@@ -40,6 +46,7 @@
   authors: "Yogesh Singh Rawat, Mubarak Shah, Aayush Jung Bahadur Rana, Praveen Tirupattur, and Mamshad Nayeem Rizve"
   status: "Granted"
   number: "US Patent 11,468,676 (2022)"
+  patent: "https://patents.google.com/patent/US11468676B2/en"
 
 - title: "Silhouette-Guided Feature Distillation for Activity-Aware Person Identification"
   authors: "Shehreen Azad and Yogesh Singh Rawat"

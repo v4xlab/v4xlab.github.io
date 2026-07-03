@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 3D Vision & Geo-Spatial Understanding
+title: 3D Vision
 description: 2 papers
-img: assets/img/2.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/skyNet.png
 importance: 6
 category: research
 related_publications: true

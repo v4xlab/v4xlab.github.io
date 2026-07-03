@@ -1,8 +1,8 @@
 <div class="service">
   {% if site.service != blank %}
     {% assign service_items = site.service | sort: 'order' %}
-    {% if include.limit and page.service.max_order %}
-      {% assign service_items = service_items | where_exp: 'item', 'item.order <= page.service.max_order' %}
+    {% if include.limit %}
+      {% assign service_items = service_items | where_exp: 'item', 'item.homepage == true' %}
     {% endif %}
     <ul>
       {% for item in service_items %}

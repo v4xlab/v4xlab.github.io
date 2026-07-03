@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Robustness & Trustworthy AI
+title: Robust AI
 description: 7 papers
-img: assets/img/6.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/output.gif
 importance: 5
 category: research
 related_publications: true

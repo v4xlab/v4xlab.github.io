@@ -13,6 +13,16 @@
               <em>{{ patent.status }}</em>
             </div>
           {% endif %}
+          {% if patent.paper or patent.patent %}
+            <div class="patent-links">
+              {% if patent.patent %}
+                <a href="{{ patent.patent }}" class="btn btn-sm z-depth-0" role="button">Patent</a>
+              {% endif %}
+              {% if patent.paper %}
+                <a href="{{ patent.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+              {% endif %}
+            </div>
+          {% endif %}
         </li>
       {% endfor %}
     </ol>

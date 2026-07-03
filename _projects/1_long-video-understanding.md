@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Long & Streaming Video Understanding
+title: Long Video Understanding
 description: 7 papers
-img: assets/img/1.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/Presentation1-newonline-video-cutter.com-21-ezgif.com-optimize.gif
 importance: 1
 category: research
 related_publications: true

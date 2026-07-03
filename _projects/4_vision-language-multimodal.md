@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Vision-Language Models & Multimodal Reasoning
+title: Vision-Language AI
 description: 12 papers
-img: assets/img/5.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/cospal_compiled-ezgif.com-video-to-gif-converter.gif
 importance: 4
 category: research
 related_publications: true

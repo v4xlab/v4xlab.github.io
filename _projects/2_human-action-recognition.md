@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Human Action & Activity Recognition
+title: Human Actions
 description: 35 papers
-img: assets/img/2.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/combined_gif.gif
 importance: 2
 category: research
 related_publications: true

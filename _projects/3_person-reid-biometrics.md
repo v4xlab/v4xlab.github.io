@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Person Re-Identification & Biometrics
+title: Person Re-ID
 description: 7 papers
-img: assets/img/4.jpg
+img: https://www.crcv.ucf.edu/wp-content/uploads/2018/11/csci-x.gif
 importance: 3
 category: research
 related_publications: true

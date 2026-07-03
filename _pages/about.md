@@ -19,7 +19,6 @@ announcements:
 
 service:
   enabled: true
-  max_order: 10 # only show the 10 most recent service items on the homepage
 ---
 
 Our research group is focused on advancing computer vision and AI, particularly in the areas of video understanding, multimodal learning, and robust AI systems. Our work explores foundational models and machine learning techniques to tackle challenges like action recognition, anomaly detection, and resilience to adversarial conditions. We aim to develop intelligent systems that not only perceive but also reason about complex visual and multimodal data for real-world applications.

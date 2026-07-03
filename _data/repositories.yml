@@ -1,14 +1,28 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - vyzuer
+  - ppriyank
+  - raiyaan-abdullah
+  - aaryangrg
+  - shyammarjit
+  - AKASH2907
+  - rajatmodi62
+  - Shahzadnit
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ppriyank/ICCV-CSCI-Person-ReID
+  - sacrcv/DisenQ
+  - raiyaan-abdullah/Motion-Transfer
+  - aaryangrg/STPro
+  - sacrcv/HierarQ
+  - shyammarjit/LR0.FM
+  - AKASH2907/copsal-weakly-stvg
+  - AKASH2907/stable-mean-teacher
+  - AKASH2907/pi-consistency-activity-detection
+  - Shahzadnit/T2L
+  - rajatmodi62/apm
+  - sacrcv/Activity-Biometrics
+  - molvision/MolVision
+  - sacrcv/StreamReady-website
+  - xliangp/DIFFER

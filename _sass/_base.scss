@@ -1447,6 +1447,24 @@ figure.cover {
       font-size: 0.9rem;
       opacity: 0.7;
     }
+
+    .patent-links {
+      margin-top: 0.4rem;
+
+      a.btn {
+        color: var(--global-text-color);
+        border: 1px solid var(--global-text-color);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+
+        &:hover {
+          color: var(--global-theme-color);
+          border-color: var(--global-theme-color);
+        }
+      }
+    }
   }
 }
 
@@ -1470,4 +1488,10 @@ figure.cover {
   margin-right: 0.4rem;
   font-size: 0.85rem;
   padding: 0.35rem 0.6rem;
+}
+
+/* Teaching page video-available tag */
+.video-tag {
+  font-size: 0.85rem;
+  opacity: 0.65;
 }

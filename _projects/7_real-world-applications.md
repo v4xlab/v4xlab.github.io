@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Real-World Applications
+title: Applications
 description: 9 papers
-img: assets/img/7.jpg
+img: https://molvision.github.io/MolVision/static/images/mainlogo.png
 importance: 7
 category: research
 related_publications: true
