@@ -2,10 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Some of our recent and ongoing projects.
+description: Our research organized by theme &mdash; explore each area to see the papers behind it.
 nav: true
 nav_order: 4
-display_categories: [work, fun]
 horizontal: false
 ---
 
