@@ -15,8 +15,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 20 # leave blank to include all the news in the `_news` folder
-  min_year: 2025 # only show news from this year onward on the homepage
+  limit: 8 # show the 8 most recent news items on the homepage
 
 service:
   enabled: true

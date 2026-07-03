@@ -9,9 +9,6 @@
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | sort: 'date' | reverse %}
-        {% if include.limit and page.announcements.min_year %}
-          {% assign news = news | where_exp: 'item', 'item.year >= page.announcements.min_year' %}
-        {% endif %}
         {% assign news_size = news | size %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
