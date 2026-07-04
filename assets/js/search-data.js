@@ -570,12 +570,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_48/";
-            },},{id: "news-announcement-47",
-          title: 'Announcement_47',
+            },},{id: "news-received-the-author-service-award-from-machine-vision-and-applications-springer-nature",
+          title: 'Received the Author Service Award from Machine Vision and Applications, Springer Nature.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_47/";
-            },},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-to-the-sponsors-for-the-support",
+          section: "News",},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-to-the-sponsors-for-the-support",
           title: 'Two NAIRR Pilot projects approved: “Benchmarking Vision-Language Models for Dynamic Visual Planning in...',
           description: "",
           section: "News",},{id: "news-recognized-as-an-outstanding-area-chair-at-cvpr-2026",
