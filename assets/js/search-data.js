@@ -565,12 +565,10 @@ ninja.data = [{
           section: "News",},{id: "news-recognized-as-an-outstanding-associate-editor-for-ieee-tcsvt-2025",
           title: 'Recognized as an Outstanding Associate Editor for IEEE-TCSVT (2025).',
           description: "",
-          section: "News",},{id: "news-announcement-48",
-          title: 'Announcement_48',
+          section: "News",},{id: "news-received-the-editorial-contribution-award-from-machine-vision-and-applications-springer-nature",
+          title: 'Received the Editorial Contribution Award from Machine Vision and Applications, Springer Nature.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_48/";
-            },},{id: "news-received-the-author-service-award-from-machine-vision-and-applications-springer-nature",
+          section: "News",},{id: "news-received-the-author-service-award-from-machine-vision-and-applications-springer-nature",
           title: 'Received the Author Service Award from Machine Vision and Applications, Springer Nature.',
           description: "",
           section: "News",},{id: "news-two-nairr-pilot-projects-approved-benchmarking-vision-language-models-for-dynamic-visual-planning-in-embodied-agents-and-streaming-long-video-understanding-with-grounding-and-efficient-memory-thank-you-to-the-sponsors-for-the-support",
