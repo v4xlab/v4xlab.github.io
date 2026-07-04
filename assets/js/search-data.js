@@ -585,11 +585,26 @@ ninja.data = [{
           description: "Reducing the compute and data cost of vision models, from test-time training to low-resolution robustness.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_efficient-learning/";
+            },},{id: "projects-label-efficient-learning",
+          title: 'Label-Efficient Learning',
+          description: "Getting strong performance from limited annotations, through semi-supervised, weakly-supervised, and active learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_label-efficient-learning/";
+            },},{id: "projects-efficient-learning",
+          title: 'Efficient Learning',
+          description: "Reducing the compute and data cost of vision models, from test-time training to low-resolution robustness.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_efficient-learning/";
             },},{id: "projects-video-understanding",
           title: 'Video Understanding',
           description: "Foundational video representation learning, cross-view and novel-view synthesis, and video segmentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_video-understanding/";
+            },},{id: "projects-video-understanding",
+          title: 'Video Understanding',
+          description: "Foundational video representation learning, cross-view and novel-view synthesis, and video segmentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_video-understanding/";
             },},{id: "projects-long-video-understanding",
           title: 'Long Video Understanding',
           description: "Streaming and long-form video: efficient memory, hierarchical representations, and knowing what to answer and when.",
@@ -630,6 +645,16 @@ ninja.data = [{
           description: "Taking vision and multimodal learning into practice, from healthcare and industry to early work in social photography.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_applications/";
+            },},{id: "projects-generative-ai",
+          title: 'Generative AI',
+          description: "Video and image synthesis with diffusion models, GANs, and generative video prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_generative-ai/";
+            },},{id: "projects-applications",
+          title: 'Applications',
+          description: "Taking vision and multimodal learning into practice, from healthcare and industry to early work in social photography.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_applications/";
             },},{id: "projects-label-efficient-learning",
           title: 'Label-Efficient Learning',
           description: "Getting strong performance from limited annotations, through semi-supervised, weakly-supervised, and active learning.",
@@ -775,16 +800,6 @@ ninja.data = [{
           description: "",
           section: "Service",handler: () => {
               window.location.href = "/service/service_34/";
-            },},{id: "service-service-35",
-          title: 'Service_35',
-          description: "",
-          section: "Service",handler: () => {
-              window.location.href = "/service/service_35/";
-            },},{id: "service-service-36",
-          title: 'Service_36',
-          description: "",
-          section: "Service",handler: () => {
-              window.location.href = "/service/service_36/";
             },},{id: "service-service-37",
           title: 'Service_37',
           description: "",
