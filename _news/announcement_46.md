@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Two <b>NAIRR Pilot</b> projects approved: <i>"Benchmarking Vision-Language Models for Dynamic Visual Planning in Embodied Agents"</i> and <i>"Streaming Long-Video Understanding with Grounding and Efficient Memory."</i> Thank you for the support!
+Two <b>NAIRR Pilot</b> projects approved: <i>"Benchmarking Vision-Language Models for Dynamic Visual Planning in Embodied Agents"</i> and <i>"Streaming Long-Video Understanding with Grounding and Efficient Memory."</i> Thank you to the sponsors for the support!
