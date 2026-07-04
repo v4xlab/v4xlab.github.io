@@ -75,7 +75,11 @@ layout: page
       <ul class="team-list">
         {% for student in site.data.ms_students %}
           <li>
-            {{ student.name -}}
+            {%- if student.website -%}
+              <a href="{{ student.website }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+            {%- else -%}
+              {{ student.name -}}
+            {%- endif -%}
             {%- if student.years %}
               <span class="team-role">({{ student.years }})</span>
             {%- endif -%}
@@ -93,7 +97,11 @@ layout: page
       <ul class="team-list">
         {% for student in site.data.ug_students %}
           <li>
-            {{ student.name -}}
+            {%- if student.website -%}
+              <a href="{{ student.website }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+            {%- else -%}
+              {{ student.name -}}
+            {%- endif -%}
             {%- if student.years %}
               <span class="team-role">({{ student.years }})</span>
             {%- endif -%}
@@ -111,7 +119,11 @@ layout: page
       <ul class="team-list">
         {% for person in site.data.external_collaborators %}
           <li>
-            {{ person.name -}}
+            {%- if person.website -%}
+              <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>
+            {%- else -%}
+              {{ person.name -}}
+            {%- endif -%}
             {%- if person.affiliation %}
               <span class="team-role">({{ person.affiliation }})</span>
             {%- endif %}
